@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Krzysztof/CLionProjects/Zajecia1/allocation_basics/main.cpp">
+		<Unit filename="C:/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/include/calc.hpp">
+			<Option target="Zajecia1"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp">
+			<Option target="Zajecia1"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp">
 			<Option target="Zajecia1"/>
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/CLionProjects/Zajecia1/allocation_basics/CMakeLists.txt">

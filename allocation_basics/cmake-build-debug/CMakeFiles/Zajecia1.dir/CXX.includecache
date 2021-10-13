@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Krzysztof/CLionProjects/Zajecia1/allocation_basics/main.cpp
+C:/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/include/calc.hpp
+
+C:/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp
 iostream
 -
+../include/calc.hpp
+C:/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/include/calc.hpp
 

@@ -65,32 +65,47 @@ include CMakeFiles/Zajecia1.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Zajecia1.dir/flags.make
 
-CMakeFiles/Zajecia1.dir/main.cpp.obj: CMakeFiles/Zajecia1.dir/flags.make
-CMakeFiles/Zajecia1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Krzysztof\CLionProjects\Zajecia1\allocation_basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Zajecia1.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Zajecia1.dir\main.cpp.obj -c C:\Users\Krzysztof\CLionProjects\Zajecia1\allocation_basics\main.cpp
+CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.obj: CMakeFiles/Zajecia1.dir/flags.make
+CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.obj: C:/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Krzysztof\CLionProjects\Zajecia1\allocation_basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Zajecia1.dir\C_\Users\Krzysztof\CLionProjects\Zajecia1\simpleCalc\src\main.cpp.obj -c C:\Users\Krzysztof\CLionProjects\Zajecia1\simpleCalc\src\main.cpp
 
-CMakeFiles/Zajecia1.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zajecia1.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Krzysztof\CLionProjects\Zajecia1\allocation_basics\main.cpp > CMakeFiles\Zajecia1.dir\main.cpp.i
+CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Krzysztof\CLionProjects\Zajecia1\simpleCalc\src\main.cpp > CMakeFiles\Zajecia1.dir\C_\Users\Krzysztof\CLionProjects\Zajecia1\simpleCalc\src\main.cpp.i
 
-CMakeFiles/Zajecia1.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zajecia1.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\CLionProjects\Zajecia1\allocation_basics\main.cpp -o CMakeFiles\Zajecia1.dir\main.cpp.s
+CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\CLionProjects\Zajecia1\simpleCalc\src\main.cpp -o CMakeFiles\Zajecia1.dir\C_\Users\Krzysztof\CLionProjects\Zajecia1\simpleCalc\src\main.cpp.s
+
+CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.obj: CMakeFiles/Zajecia1.dir/flags.make
+CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.obj: C:/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Krzysztof\CLionProjects\Zajecia1\allocation_basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.obj"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Zajecia1.dir\C_\Users\Krzysztof\CLionProjects\Zajecia1\simpleCalc\src\calc.cpp.obj -c C:\Users\Krzysztof\CLionProjects\Zajecia1\simpleCalc\src\calc.cpp
+
+CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Krzysztof\CLionProjects\Zajecia1\simpleCalc\src\calc.cpp > CMakeFiles\Zajecia1.dir\C_\Users\Krzysztof\CLionProjects\Zajecia1\simpleCalc\src\calc.cpp.i
+
+CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\CLionProjects\Zajecia1\simpleCalc\src\calc.cpp -o CMakeFiles\Zajecia1.dir\C_\Users\Krzysztof\CLionProjects\Zajecia1\simpleCalc\src\calc.cpp.s
 
 # Object files for target Zajecia1
 Zajecia1_OBJECTS = \
-"CMakeFiles/Zajecia1.dir/main.cpp.obj"
+"CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.obj" \
+"CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.obj"
 
 # External object files for target Zajecia1
 Zajecia1_EXTERNAL_OBJECTS =
 
-Zajecia1.exe: CMakeFiles/Zajecia1.dir/main.cpp.obj
+Zajecia1.exe: CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.obj
+Zajecia1.exe: CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.obj
 Zajecia1.exe: CMakeFiles/Zajecia1.dir/build.make
 Zajecia1.exe: CMakeFiles/Zajecia1.dir/linklibs.rsp
 Zajecia1.exe: CMakeFiles/Zajecia1.dir/objects1.rsp
 Zajecia1.exe: CMakeFiles/Zajecia1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Krzysztof\CLionProjects\Zajecia1\allocation_basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Zajecia1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Krzysztof\CLionProjects\Zajecia1\allocation_basics\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Zajecia1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Zajecia1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

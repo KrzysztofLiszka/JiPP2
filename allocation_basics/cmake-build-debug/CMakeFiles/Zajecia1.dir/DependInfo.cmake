@@ -8,7 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Krzysztof/CLionProjects/Zajecia1/allocation_basics/main.cpp" "C:/Users/Krzysztof/CLionProjects/Zajecia1/allocation_basics/cmake-build-debug/CMakeFiles/Zajecia1.dir/main.cpp.obj"
+  "C:/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp" "C:/Users/Krzysztof/CLionProjects/Zajecia1/allocation_basics/cmake-build-debug/CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.obj"
+  "C:/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp" "C:/Users/Krzysztof/CLionProjects/Zajecia1/allocation_basics/cmake-build-debug/CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,5 +1,6 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/Zajecia1.dir/main.cpp.obj"
+  "CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.obj"
+  "CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.obj"
   "Zajecia1.exe"
   "Zajecia1.exe.manifest"
   "Zajecia1.pdb"

@@ -128,29 +128,53 @@ Zajecia1/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zajecia1.dir\build.make CMakeFiles/Zajecia1.dir/build
 .PHONY : Zajecia1/fast
 
-main.obj: main.cpp.obj
-.PHONY : main.obj
+C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.obj: C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.obj
+.PHONY : C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.obj
 
 # target to build an object file
-main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zajecia1.dir\build.make CMakeFiles/Zajecia1.dir/main.cpp.obj
-.PHONY : main.cpp.obj
+C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zajecia1.dir\build.make CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.obj
+.PHONY : C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.obj
 
-main.i: main.cpp.i
-.PHONY : main.i
+C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.i: C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.i
+.PHONY : C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zajecia1.dir\build.make CMakeFiles/Zajecia1.dir/main.cpp.i
-.PHONY : main.cpp.i
+C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zajecia1.dir\build.make CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.i
+.PHONY : C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.s: C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.s
+.PHONY : C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zajecia1.dir\build.make CMakeFiles/Zajecia1.dir/main.cpp.s
-.PHONY : main.cpp.s
+C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zajecia1.dir\build.make CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.s
+.PHONY : C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.cpp.s
+
+C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.obj: C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.obj
+.PHONY : C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.obj
+
+# target to build an object file
+C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zajecia1.dir\build.make CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.obj
+.PHONY : C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.obj
+
+C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.i: C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.i
+.PHONY : C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.i
+
+# target to preprocess a source file
+C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zajecia1.dir\build.make CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.i
+.PHONY : C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.i
+
+C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.s: C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.s
+.PHONY : C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.s
+
+# target to generate assembly for a file
+C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Zajecia1.dir\build.make CMakeFiles/Zajecia1.dir/C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.s
+.PHONY : C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.cpp.s
 
 # Help Target
 help:
@@ -161,9 +185,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Zajecia1
-	@echo ... main.obj
-	@echo ... main.i
-	@echo ... main.s
+	@echo ... C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.obj
+	@echo ... C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.i
+	@echo ... C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/calc.s
+	@echo ... C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.obj
+	@echo ... C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.i
+	@echo ... C_/Users/Krzysztof/CLionProjects/Zajecia1/simpleCalc/src/main.s
 .PHONY : help
 
 
