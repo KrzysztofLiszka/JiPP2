@@ -1,0 +1,3 @@
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/allocation_basics/cmake-build-debug/CMakeFiles/Zajecia1.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/allocation_basics/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/allocation_basics/cmake-build-debug/CMakeFiles/rebuild_cache.dir
