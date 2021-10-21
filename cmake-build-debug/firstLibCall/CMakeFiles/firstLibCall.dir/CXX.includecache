@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../firstLib/include/lib.h
+
+C:/Users/Krzysztof/CLionProjects/JiPP2/firstLibCall/main.cpp
+lib.h
+-
+

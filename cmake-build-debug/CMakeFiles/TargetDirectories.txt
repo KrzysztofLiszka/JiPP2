@@ -1,0 +1,17 @@
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/allocation_basics/CMakeFiles/allocation_basics.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/allocation_basics/CMakeFiles/edit_cache.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/allocation_basics/CMakeFiles/rebuild_cache.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/simpleCalc/CMakeFiles/simpleCalc.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/simpleCalc/CMakeFiles/edit_cache.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/simpleCalc/CMakeFiles/rebuild_cache.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/firstLib/CMakeFiles/edit_cache.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/firstLib/CMakeFiles/firstLib.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/firstLib/CMakeFiles/rebuild_cache.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/firstLibCall/CMakeFiles/edit_cache.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/firstLibCall/CMakeFiles/firstLibCall.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/firstLibCall/CMakeFiles/rebuild_cache.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/edit_cache.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/lab2Homework.dir
+C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.20)
+project(JiPP2)
+
+set(CMAKE_CXX_STANDARD 14)
+
+add_subdirectory(allocation_basics)
+add_subdirectory(simpleCalc)
+add_subdirectory(firstLib)
+add_subdirectory(firstLibCall)
+add_subdirectory(lab3Homework)

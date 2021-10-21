@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Krzysztof/CLionProjects/JiPP2/lab3Homework/include/ExceptionHandling.h
+
+C:/Users/Krzysztof/CLionProjects/JiPP2/lab3Homework/src/ExceptionHandling.cpp
+iostream
+-
+../include/ExceptionHandling.h
+C:/Users/Krzysztof/CLionProjects/JiPP2/lab3Homework/include/ExceptionHandling.h
+string
+-
+

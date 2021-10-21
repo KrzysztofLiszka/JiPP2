@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Krzysztof/CLionProjects/JiPP2/lab2Homework/include/area.h
+
+C:/Users/Krzysztof/CLionProjects/JiPP2/lab2Homework/include/random-Change_Reverse.h
+
+C:/Users/Krzysztof/CLionProjects/JiPP2/lab2Homework/src/main.cpp
+iostream
+-
+../include/area.h
+C:/Users/Krzysztof/CLionProjects/JiPP2/lab2Homework/include/area.h
+../include/random-Change_Reverse.h
+C:/Users/Krzysztof/CLionProjects/JiPP2/lab2Homework/include/random-Change_Reverse.h
+
+C:/Users/Krzysztof/CLionProjects/JiPP2/lab2Homework/src/random-Change-Reverse.cpp
+iostream
+-
+../include/random-Change_Reverse.h
+C:/Users/Krzysztof/CLionProjects/JiPP2/lab2Homework/include/random-Change_Reverse.h
+ctime
+-
+
