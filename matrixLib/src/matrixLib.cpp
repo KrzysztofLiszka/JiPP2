@@ -5,7 +5,22 @@ using namespace std;
 
 double **addMatrix(double **firstMatrix, double **secondMatrix, int numberOfRows, int numberOfColumns)
 {
-    throw logic_error("Not implemented");
+    //alkowanie pamieci dla tablicy z wynikiem
+    double **resultMatrix = new double *[numberOfRows]; //alokacja pamieci
+    for ( int i = 0; i < numberOfRows; ++i )
+    {
+        resultMatrix[i] = new double [numberOfColumns]; //alokacja pamieci
+    }
+
+    //dodanie macierzy
+    for(int i=0;i<numberOfRows;i++)
+        for(int j=0;j<numberOfColumns;j++)
+        {
+            resultMatrix[i][j] = firstMatrix[i][j] + secondMatrix[i][j]; //dodanie do siebie macierzy A i B
+        }
+
+    //delete [] resultMatrix;
+    return resultMatrix;
 }
 int **addMatrix(int **firstMatrix, int **secondMatrix, int numberOfRows, int numberOfColumns)
 {
