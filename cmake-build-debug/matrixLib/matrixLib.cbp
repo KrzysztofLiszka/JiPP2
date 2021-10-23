@@ -2,24 +2,24 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="firstLib"/>
+		<Option title="matrixLib"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simpleCalc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\lab3Homework\;CMake Files\matrixApp\;CMake Files\matrixLib\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib"/>
+				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="firstLib">
-				<Option output="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib/libfirstLib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib"/>
+			<Target title="matrixLib">
+				<Option output="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/libmatrixLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 firstLib"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/Makefile&quot;  VERBOSE=1 matrixLib"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="firstLib/fast">
-				<Option output="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib/libfirstLib.a" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib"/>
+			<Target title="matrixLib/fast">
+				<Option output="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/libmatrixLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib"/>
 				<Option object_output="./"/>
 				<Option type="2"/>
 				<Option compiler="gcc"/>
@@ -55,15 +55,18 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 firstLib/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/Makefile&quot;  VERBOSE=1 matrixLib/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/firstLib/src/lib.cpp">
-			<Option target="firstLib"/>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixLib/include/matrixLib.h">
+			<Option target="matrixLib"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixLib/src/matrixLib.cpp">
+			<Option target="matrixLib"/>
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>

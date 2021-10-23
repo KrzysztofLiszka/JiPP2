@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixLib/include/matrixLib.h
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixLib/src/matrixLib.cpp
+iostream
+-
+../include/matrixLib.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixLib/include/matrixLib.h
+

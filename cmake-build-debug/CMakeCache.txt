@@ -284,6 +284,18 @@ lab3Homework_BINARY_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-b
 lab3Homework_SOURCE_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework
 
 //Value Computed by CMake
+matrixApp_BINARY_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixApp
+
+//Value Computed by CMake
+matrixApp_SOURCE_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixApp
+
+//Value Computed by CMake
+matrixLib_BINARY_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib
+
+//Value Computed by CMake
+matrixLib_SOURCE_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixLib
+
+//Value Computed by CMake
 simpleCalc_BINARY_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/simpleCalc
 
 //Value Computed by CMake
@@ -402,7 +414,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

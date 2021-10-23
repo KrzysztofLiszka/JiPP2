@@ -180,6 +180,32 @@ lab2Homework/fast:
 	$(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/build
 .PHONY : lab2Homework/fast
 
+#=============================================================================
+# Target rules for targets named matrixApp
+
+# Build rule for target.
+matrixApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 matrixApp
+.PHONY : matrixApp
+
+# fast build rule for target.
+matrixApp/fast:
+	$(MAKE) $(MAKESILENT) -f matrixApp\CMakeFiles\matrixApp.dir\build.make matrixApp/CMakeFiles/matrixApp.dir/build
+.PHONY : matrixApp/fast
+
+#=============================================================================
+# Target rules for targets named matrixLib
+
+# Build rule for target.
+matrixLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 matrixLib
+.PHONY : matrixLib
+
+# fast build rule for target.
+matrixLib/fast:
+	$(MAKE) $(MAKESILENT) -f matrixLib\CMakeFiles\matrixLib.dir\build.make matrixLib/CMakeFiles/matrixLib.dir/build
+.PHONY : matrixLib/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -192,6 +218,8 @@ help:
 	@echo ... firstLib
 	@echo ... firstLibCall
 	@echo ... lab2Homework
+	@echo ... matrixApp
+	@echo ... matrixLib
 	@echo ... simpleCalc
 .PHONY : help
 

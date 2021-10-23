@@ -40,6 +40,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../firstLib/CMakeLists.txt"
   "../firstLibCall/CMakeLists.txt"
   "../lab3Homework/CMakeLists.txt"
+  "../matrixApp/CMakeLists.txt"
+  "../matrixLib/CMakeLists.txt"
   "../simpleCalc/CMakeLists.txt"
   )
 
@@ -57,6 +59,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "firstLib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "firstLibCall/CMakeFiles/CMakeDirectoryInformation.cmake"
   "lab3Homework/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "matrixApp/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "matrixLib/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -66,4 +70,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "firstLib/CMakeFiles/firstLib.dir/DependInfo.cmake"
   "firstLibCall/CMakeFiles/firstLibCall.dir/DependInfo.cmake"
   "lab3Homework/CMakeFiles/lab2Homework.dir/DependInfo.cmake"
+  "matrixApp/CMakeFiles/matrixApp.dir/DependInfo.cmake"
+  "matrixLib/CMakeFiles/matrixLib.dir/DependInfo.cmake"
   )

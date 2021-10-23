@@ -15,3 +15,9 @@ C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLibCall/CMakeFi
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/edit_cache.dir
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/lab2Homework.dir
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/rebuild_cache.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixApp/CMakeFiles/matrixApp.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixApp/CMakeFiles/edit_cache.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixApp/CMakeFiles/rebuild_cache.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/CMakeFiles/matrixLib.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/CMakeFiles/edit_cache.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixLib/CMakeFiles/rebuild_cache.dir
