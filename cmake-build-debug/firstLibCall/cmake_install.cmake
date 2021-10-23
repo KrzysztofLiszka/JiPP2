@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Krzysztof/CLionProjects/JiPP2/firstLibCall
+# Install script for directory: C:/Users/Krzysztof/Documents/GitHub/JiPP2/firstLibCall
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

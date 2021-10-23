@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Krzysztof\CLionProjects\JiPP2
+CMAKE_SOURCE_DIR = C:\Users\Krzysztof\Documents\GitHub\JiPP2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\simpleCalc\\CMakeFiles\progress.marks
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simpleCalc/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\simpleCalc\\CMakeFiles\progress.marks
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simpleCalc/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simpleCalc/clean
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simpleCalc/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simpleCalc/preinstall
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simpleCalc/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simpleCalc/preinstall
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simpleCalc/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 simpleCalc/CMakeFiles/simpleCalc.dir/rule:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simpleCalc/CMakeFiles/simpleCalc.dir/rule
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simpleCalc/CMakeFiles/simpleCalc.dir/rule
 .PHONY : simpleCalc/CMakeFiles/simpleCalc.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ simpleCalc: simpleCalc/CMakeFiles/simpleCalc.dir/rule
 
 # fast build rule for target.
 simpleCalc/fast:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/build
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/build
 .PHONY : simpleCalc/fast
 
 src/calc.obj: src/calc.cpp.obj
@@ -134,7 +134,7 @@ src/calc.obj: src/calc.cpp.obj
 
 # target to build an object file
 src/calc.cpp.obj:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/src/calc.cpp.obj
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/src/calc.cpp.obj
 .PHONY : src/calc.cpp.obj
 
 src/calc.i: src/calc.cpp.i
@@ -142,7 +142,7 @@ src/calc.i: src/calc.cpp.i
 
 # target to preprocess a source file
 src/calc.cpp.i:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/src/calc.cpp.i
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/src/calc.cpp.i
 .PHONY : src/calc.cpp.i
 
 src/calc.s: src/calc.cpp.s
@@ -150,7 +150,7 @@ src/calc.s: src/calc.cpp.s
 
 # target to generate assembly for a file
 src/calc.cpp.s:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/src/calc.cpp.s
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/src/calc.cpp.s
 .PHONY : src/calc.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -158,7 +158,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/src/main.cpp.obj
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -166,7 +166,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/src/main.cpp.i
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -174,7 +174,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/src/main.cpp.s
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 # Help Target
@@ -203,6 +203,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

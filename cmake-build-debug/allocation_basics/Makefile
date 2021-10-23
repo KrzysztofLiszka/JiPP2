@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Krzysztof\CLionProjects\JiPP2
+CMAKE_SOURCE_DIR = C:\Users\Krzysztof\Documents\GitHub\JiPP2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\allocation_basics\\CMakeFiles\progress.marks
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 allocation_basics/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\allocation_basics\\CMakeFiles\progress.marks
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 allocation_basics/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 allocation_basics/clean
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 allocation_basics/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 allocation_basics/preinstall
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 allocation_basics/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 allocation_basics/preinstall
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 allocation_basics/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 allocation_basics/CMakeFiles/allocation_basics.dir/rule:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 allocation_basics/CMakeFiles/allocation_basics.dir/rule
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 allocation_basics/CMakeFiles/allocation_basics.dir/rule
 .PHONY : allocation_basics/CMakeFiles/allocation_basics.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ allocation_basics: allocation_basics/CMakeFiles/allocation_basics.dir/rule
 
 # fast build rule for target.
 allocation_basics/fast:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\allocation_basics.dir\build.make allocation_basics/CMakeFiles/allocation_basics.dir/build
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\allocation_basics.dir\build.make allocation_basics/CMakeFiles/allocation_basics.dir/build
 .PHONY : allocation_basics/fast
 
 main.obj: main.cpp.obj
@@ -134,7 +134,7 @@ main.obj: main.cpp.obj
 
 # target to build an object file
 main.cpp.obj:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\allocation_basics.dir\build.make allocation_basics/CMakeFiles/allocation_basics.dir/main.cpp.obj
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\allocation_basics.dir\build.make allocation_basics/CMakeFiles/allocation_basics.dir/main.cpp.obj
 .PHONY : main.cpp.obj
 
 main.i: main.cpp.i
@@ -142,7 +142,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\allocation_basics.dir\build.make allocation_basics/CMakeFiles/allocation_basics.dir/main.cpp.i
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\allocation_basics.dir\build.make allocation_basics/CMakeFiles/allocation_basics.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -150,7 +150,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\allocation_basics.dir\build.make allocation_basics/CMakeFiles/allocation_basics.dir/main.cpp.s
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\allocation_basics.dir\build.make allocation_basics/CMakeFiles/allocation_basics.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 # Help Target
@@ -176,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

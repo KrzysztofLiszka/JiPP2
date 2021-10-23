@@ -6,13 +6,51 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Krzysztof/CLionProjects/JiPP2/lab3Homework/include/ExceptionHandling.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/include/ExceptionHandling.h
 
-C:/Users/Krzysztof/CLionProjects/JiPP2/lab3Homework/src/ExceptionHandling.cpp
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/include/area.h
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/include/pointers.h
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/include/random-Change_Reverse.h
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/src/ExceptionHandling.cpp
 iostream
 -
 ../include/ExceptionHandling.h
-C:/Users/Krzysztof/CLionProjects/JiPP2/lab3Homework/include/ExceptionHandling.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/include/ExceptionHandling.h
 string
+-
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/src/area.cpp
+../include/area.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/include/area.h
+math.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/src/math.h
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/src/main.cpp
+iostream
+-
+../include/area.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/include/area.h
+../include/random-Change_Reverse.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/include/random-Change_Reverse.h
+../include/pointers.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/include/pointers.h
+../include/ExceptionHandling.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/include/ExceptionHandling.h
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/src/pointers.cpp
+iostream
+-
+../include/pointers.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/include/pointers.h
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/src/random-Change-Reverse.cpp
+iostream
+-
+../include/random-Change_Reverse.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/include/random-Change_Reverse.h
+ctime
 -
 

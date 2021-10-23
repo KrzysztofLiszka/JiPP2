@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Krzysztof/CLionProjects/JiPP2
+# Install script for directory: C:/Users/Krzysztof/Documents/GitHub/JiPP2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,27 +39,27 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/allocation_basics/cmake_install.cmake")
+  include("C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/allocation_basics/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/simpleCalc/cmake_install.cmake")
+  include("C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/simpleCalc/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/firstLib/cmake_install.cmake")
+  include("C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/firstLibCall/cmake_install.cmake")
+  include("C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLibCall/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/lab3Homework/cmake_install.cmake")
+  include("C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab3Homework/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -70,5 +70,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

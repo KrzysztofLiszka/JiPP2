@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Krzysztof/CLionProjects/JiPP2/allocation_basics
+# Install script for directory: C:/Users/Krzysztof/Documents/GitHub/JiPP2/allocation_basics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

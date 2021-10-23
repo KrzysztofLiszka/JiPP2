@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Krzysztof\CLionProjects\JiPP2
+CMAKE_SOURCE_DIR = C:\Users\Krzysztof\Documents\GitHub\JiPP2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\firstLib\\CMakeFiles\progress.marks
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstLib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\firstLib\\CMakeFiles\progress.marks
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstLib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstLib/clean
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstLib/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstLib/preinstall
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstLib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstLib/preinstall
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstLib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 firstLib/CMakeFiles/firstLib.dir/rule:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstLib/CMakeFiles/firstLib.dir/rule
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstLib/CMakeFiles/firstLib.dir/rule
 .PHONY : firstLib/CMakeFiles/firstLib.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ firstLib: firstLib/CMakeFiles/firstLib.dir/rule
 
 # fast build rule for target.
 firstLib/fast:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f firstLib\CMakeFiles\firstLib.dir\build.make firstLib/CMakeFiles/firstLib.dir/build
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f firstLib\CMakeFiles\firstLib.dir\build.make firstLib/CMakeFiles/firstLib.dir/build
 .PHONY : firstLib/fast
 
 src/lib.obj: src/lib.cpp.obj
@@ -134,7 +134,7 @@ src/lib.obj: src/lib.cpp.obj
 
 # target to build an object file
 src/lib.cpp.obj:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f firstLib\CMakeFiles\firstLib.dir\build.make firstLib/CMakeFiles/firstLib.dir/src/lib.cpp.obj
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f firstLib\CMakeFiles\firstLib.dir\build.make firstLib/CMakeFiles/firstLib.dir/src/lib.cpp.obj
 .PHONY : src/lib.cpp.obj
 
 src/lib.i: src/lib.cpp.i
@@ -142,7 +142,7 @@ src/lib.i: src/lib.cpp.i
 
 # target to preprocess a source file
 src/lib.cpp.i:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f firstLib\CMakeFiles\firstLib.dir\build.make firstLib/CMakeFiles/firstLib.dir/src/lib.cpp.i
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f firstLib\CMakeFiles\firstLib.dir\build.make firstLib/CMakeFiles/firstLib.dir/src/lib.cpp.i
 .PHONY : src/lib.cpp.i
 
 src/lib.s: src/lib.cpp.s
@@ -150,7 +150,7 @@ src/lib.s: src/lib.cpp.s
 
 # target to generate assembly for a file
 src/lib.cpp.s:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f firstLib\CMakeFiles\firstLib.dir\build.make firstLib/CMakeFiles/firstLib.dir/src/lib.cpp.s
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f firstLib\CMakeFiles\firstLib.dir\build.make firstLib/CMakeFiles/firstLib.dir/src/lib.cpp.s
 .PHONY : src/lib.cpp.s
 
 # Help Target
@@ -176,6 +176,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

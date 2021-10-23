@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Krzysztof/CLionProjects/JiPP2/lab3Homework/src/ExceptionHandling.cpp" "C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/lab2Homework.dir/src/ExceptionHandling.cpp.obj"
-  "C:/Users/Krzysztof/CLionProjects/JiPP2/lab3Homework/src/area.cpp" "C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/lab2Homework.dir/src/area.cpp.obj"
-  "C:/Users/Krzysztof/CLionProjects/JiPP2/lab3Homework/src/main.cpp" "C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/lab2Homework.dir/src/main.cpp.obj"
-  "C:/Users/Krzysztof/CLionProjects/JiPP2/lab3Homework/src/pointers.cpp" "C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/lab2Homework.dir/src/pointers.cpp.obj"
-  "C:/Users/Krzysztof/CLionProjects/JiPP2/lab3Homework/src/random-Change-Reverse.cpp" "C:/Users/Krzysztof/CLionProjects/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/lab2Homework.dir/src/random-Change-Reverse.cpp.obj"
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/src/ExceptionHandling.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/lab2Homework.dir/src/ExceptionHandling.cpp.obj"
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/src/area.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/lab2Homework.dir/src/area.cpp.obj"
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/src/main.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/lab2Homework.dir/src/main.cpp.obj"
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/src/pointers.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/lab2Homework.dir/src/pointers.cpp.obj"
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/src/random-Change-Reverse.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab3Homework/CMakeFiles/lab2Homework.dir/src/random-Change-Reverse.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

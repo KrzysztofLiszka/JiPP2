@@ -53,10 +53,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Krzysztof\CLionProjects\JiPP2
+CMAKE_SOURCE_DIR = C:\Users\Krzysztof\Documents\GitHub\JiPP2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -167,14 +167,14 @@ simpleCalc/clean: simpleCalc/CMakeFiles/simpleCalc.dir/clean
 allocation_basics/CMakeFiles/allocation_basics.dir/all:
 	$(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\allocation_basics.dir\build.make allocation_basics/CMakeFiles/allocation_basics.dir/depend
 	$(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\allocation_basics.dir\build.make allocation_basics/CMakeFiles/allocation_basics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target allocation_basics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target allocation_basics"
 .PHONY : allocation_basics/CMakeFiles/allocation_basics.dir/all
 
 # Build rule for subdir invocation for target.
 allocation_basics/CMakeFiles/allocation_basics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 allocation_basics/CMakeFiles/allocation_basics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 0
 .PHONY : allocation_basics/CMakeFiles/allocation_basics.dir/rule
 
 # Convenience name for target.
@@ -193,14 +193,14 @@ allocation_basics/CMakeFiles/allocation_basics.dir/clean:
 simpleCalc/CMakeFiles/simpleCalc.dir/all:
 	$(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/depend
 	$(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=13,14,15 "Built target simpleCalc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=13,14,15 "Built target simpleCalc"
 .PHONY : simpleCalc/CMakeFiles/simpleCalc.dir/all
 
 # Build rule for subdir invocation for target.
 simpleCalc/CMakeFiles/simpleCalc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 simpleCalc/CMakeFiles/simpleCalc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 0
 .PHONY : simpleCalc/CMakeFiles/simpleCalc.dir/rule
 
 # Convenience name for target.
@@ -219,14 +219,14 @@ simpleCalc/CMakeFiles/simpleCalc.dir/clean:
 firstLib/CMakeFiles/firstLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f firstLib\CMakeFiles\firstLib.dir\build.make firstLib/CMakeFiles/firstLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f firstLib\CMakeFiles\firstLib.dir\build.make firstLib/CMakeFiles/firstLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target firstLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target firstLib"
 .PHONY : firstLib/CMakeFiles/firstLib.dir/all
 
 # Build rule for subdir invocation for target.
 firstLib/CMakeFiles/firstLib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstLib/CMakeFiles/firstLib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 0
 .PHONY : firstLib/CMakeFiles/firstLib.dir/rule
 
 # Convenience name for target.
@@ -245,14 +245,14 @@ firstLib/CMakeFiles/firstLib.dir/clean:
 firstLibCall/CMakeFiles/firstLibCall.dir/all: firstLib/CMakeFiles/firstLib.dir/all
 	$(MAKE) $(MAKESILENT) -f firstLibCall\CMakeFiles\firstLibCall.dir\build.make firstLibCall/CMakeFiles/firstLibCall.dir/depend
 	$(MAKE) $(MAKESILENT) -f firstLibCall\CMakeFiles\firstLibCall.dir\build.make firstLibCall/CMakeFiles/firstLibCall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target firstLibCall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target firstLibCall"
 .PHONY : firstLibCall/CMakeFiles/firstLibCall.dir/all
 
 # Build rule for subdir invocation for target.
 firstLibCall/CMakeFiles/firstLibCall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 firstLibCall/CMakeFiles/firstLibCall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 0
 .PHONY : firstLibCall/CMakeFiles/firstLibCall.dir/rule
 
 # Convenience name for target.
@@ -271,14 +271,14 @@ firstLibCall/CMakeFiles/firstLibCall.dir/clean:
 lab3Homework/CMakeFiles/lab2Homework.dir/all:
 	$(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/depend
 	$(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=7,8,9,10,11,12 "Built target lab2Homework"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=7,8,9,10,11,12 "Built target lab2Homework"
 .PHONY : lab3Homework/CMakeFiles/lab2Homework.dir/all
 
 # Build rule for subdir invocation for target.
 lab3Homework/CMakeFiles/lab2Homework.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 6
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3Homework/CMakeFiles/lab2Homework.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 0
 .PHONY : lab3Homework/CMakeFiles/lab2Homework.dir/rule
 
 # Convenience name for target.

@@ -56,10 +56,10 @@ RM = "C:\Program Files\JetBrains\CLion 2021.2.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Krzysztof\CLionProjects\JiPP2
+CMAKE_SOURCE_DIR = C:\Users\Krzysztof\Documents\GitHub\JiPP2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\lab3Homework\\CMakeFiles\progress.marks
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3Homework/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab3Homework\\CMakeFiles\progress.marks
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3Homework/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3Homework/clean
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3Homework/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3Homework/preinstall
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3Homework/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3Homework/preinstall
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3Homework/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 lab3Homework/CMakeFiles/lab2Homework.dir/rule:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3Homework/CMakeFiles/lab2Homework.dir/rule
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab3Homework/CMakeFiles/lab2Homework.dir/rule
 .PHONY : lab3Homework/CMakeFiles/lab2Homework.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ lab2Homework: lab3Homework/CMakeFiles/lab2Homework.dir/rule
 
 # fast build rule for target.
 lab2Homework/fast:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/build
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/build
 .PHONY : lab2Homework/fast
 
 src/ExceptionHandling.obj: src/ExceptionHandling.cpp.obj
@@ -134,7 +134,7 @@ src/ExceptionHandling.obj: src/ExceptionHandling.cpp.obj
 
 # target to build an object file
 src/ExceptionHandling.cpp.obj:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/ExceptionHandling.cpp.obj
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/ExceptionHandling.cpp.obj
 .PHONY : src/ExceptionHandling.cpp.obj
 
 src/ExceptionHandling.i: src/ExceptionHandling.cpp.i
@@ -142,7 +142,7 @@ src/ExceptionHandling.i: src/ExceptionHandling.cpp.i
 
 # target to preprocess a source file
 src/ExceptionHandling.cpp.i:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/ExceptionHandling.cpp.i
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/ExceptionHandling.cpp.i
 .PHONY : src/ExceptionHandling.cpp.i
 
 src/ExceptionHandling.s: src/ExceptionHandling.cpp.s
@@ -150,7 +150,7 @@ src/ExceptionHandling.s: src/ExceptionHandling.cpp.s
 
 # target to generate assembly for a file
 src/ExceptionHandling.cpp.s:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/ExceptionHandling.cpp.s
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/ExceptionHandling.cpp.s
 .PHONY : src/ExceptionHandling.cpp.s
 
 src/area.obj: src/area.cpp.obj
@@ -158,7 +158,7 @@ src/area.obj: src/area.cpp.obj
 
 # target to build an object file
 src/area.cpp.obj:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/area.cpp.obj
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/area.cpp.obj
 .PHONY : src/area.cpp.obj
 
 src/area.i: src/area.cpp.i
@@ -166,7 +166,7 @@ src/area.i: src/area.cpp.i
 
 # target to preprocess a source file
 src/area.cpp.i:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/area.cpp.i
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/area.cpp.i
 .PHONY : src/area.cpp.i
 
 src/area.s: src/area.cpp.s
@@ -174,7 +174,7 @@ src/area.s: src/area.cpp.s
 
 # target to generate assembly for a file
 src/area.cpp.s:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/area.cpp.s
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/area.cpp.s
 .PHONY : src/area.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -182,7 +182,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/main.cpp.obj
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -190,7 +190,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/main.cpp.i
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -198,7 +198,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/main.cpp.s
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/pointers.obj: src/pointers.cpp.obj
@@ -206,7 +206,7 @@ src/pointers.obj: src/pointers.cpp.obj
 
 # target to build an object file
 src/pointers.cpp.obj:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/pointers.cpp.obj
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/pointers.cpp.obj
 .PHONY : src/pointers.cpp.obj
 
 src/pointers.i: src/pointers.cpp.i
@@ -214,7 +214,7 @@ src/pointers.i: src/pointers.cpp.i
 
 # target to preprocess a source file
 src/pointers.cpp.i:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/pointers.cpp.i
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/pointers.cpp.i
 .PHONY : src/pointers.cpp.i
 
 src/pointers.s: src/pointers.cpp.s
@@ -222,7 +222,7 @@ src/pointers.s: src/pointers.cpp.s
 
 # target to generate assembly for a file
 src/pointers.cpp.s:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/pointers.cpp.s
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/pointers.cpp.s
 .PHONY : src/pointers.cpp.s
 
 src/random-Change-Reverse.obj: src/random-Change-Reverse.cpp.obj
@@ -230,7 +230,7 @@ src/random-Change-Reverse.obj: src/random-Change-Reverse.cpp.obj
 
 # target to build an object file
 src/random-Change-Reverse.cpp.obj:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/random-Change-Reverse.cpp.obj
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/random-Change-Reverse.cpp.obj
 .PHONY : src/random-Change-Reverse.cpp.obj
 
 src/random-Change-Reverse.i: src/random-Change-Reverse.cpp.i
@@ -238,7 +238,7 @@ src/random-Change-Reverse.i: src/random-Change-Reverse.cpp.i
 
 # target to preprocess a source file
 src/random-Change-Reverse.cpp.i:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/random-Change-Reverse.cpp.i
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/random-Change-Reverse.cpp.i
 .PHONY : src/random-Change-Reverse.cpp.i
 
 src/random-Change-Reverse.s: src/random-Change-Reverse.cpp.s
@@ -246,7 +246,7 @@ src/random-Change-Reverse.s: src/random-Change-Reverse.cpp.s
 
 # target to generate assembly for a file
 src/random-Change-Reverse.cpp.s:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/random-Change-Reverse.cpp.s
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab3Homework\CMakeFiles\lab2Homework.dir\build.make lab3Homework/CMakeFiles/lab2Homework.dir/src/random-Change-Reverse.cpp.s
 .PHONY : src/random-Change-Reverse.cpp.s
 
 # Help Target
@@ -284,6 +284,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Krzysztof\CLionProjects\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
