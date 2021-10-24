@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixApp/src/functionsInMain.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixApp/CMakeFiles/matrixApp.dir/src/functionsInMain.cpp.obj"
   "C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixApp/src/main.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixApp/CMakeFiles/matrixApp.dir/src/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

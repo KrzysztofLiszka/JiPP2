@@ -129,6 +129,30 @@ matrixApp/fast:
 	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f matrixApp\CMakeFiles\matrixApp.dir\build.make matrixApp/CMakeFiles/matrixApp.dir/build
 .PHONY : matrixApp/fast
 
+src/functionsInMain.obj: src/functionsInMain.cpp.obj
+.PHONY : src/functionsInMain.obj
+
+# target to build an object file
+src/functionsInMain.cpp.obj:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f matrixApp\CMakeFiles\matrixApp.dir\build.make matrixApp/CMakeFiles/matrixApp.dir/src/functionsInMain.cpp.obj
+.PHONY : src/functionsInMain.cpp.obj
+
+src/functionsInMain.i: src/functionsInMain.cpp.i
+.PHONY : src/functionsInMain.i
+
+# target to preprocess a source file
+src/functionsInMain.cpp.i:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f matrixApp\CMakeFiles\matrixApp.dir\build.make matrixApp/CMakeFiles/matrixApp.dir/src/functionsInMain.cpp.i
+.PHONY : src/functionsInMain.cpp.i
+
+src/functionsInMain.s: src/functionsInMain.cpp.s
+.PHONY : src/functionsInMain.s
+
+# target to generate assembly for a file
+src/functionsInMain.cpp.s:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f matrixApp\CMakeFiles\matrixApp.dir\build.make matrixApp/CMakeFiles/matrixApp.dir/src/functionsInMain.cpp.s
+.PHONY : src/functionsInMain.cpp.s
+
 src/main.obj: src/main.cpp.obj
 .PHONY : src/main.obj
 
@@ -162,6 +186,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... matrixApp
+	@echo ... src/functionsInMain.obj
+	@echo ... src/functionsInMain.i
+	@echo ... src/functionsInMain.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
