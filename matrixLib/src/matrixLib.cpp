@@ -3,7 +3,48 @@
 
 using namespace std;
 
+double **allocateMemoryForMatrix(int numberOfRows, int numberOfColumns)
+{
+    double **allocatedMatrix = new double *[numberOfRows];
+    for ( int i = 0; i < numberOfRows; ++i )
+    {
+        allocatedMatrix[i] = new double [numberOfColumns];
+    }
+    return allocatedMatrix;
+}
+
 double **addMatrix(double **firstMatrix, double **secondMatrix, int numberOfRows, int numberOfColumns)
+{
+    double **resultMatrix = allocateMemoryForMatrix(numberOfRows, numberOfColumns);
+
+    //dodanie macierzy
+    for(int i=0;i<numberOfRows;i++)
+        for(int j=0;j<numberOfColumns;j++)
+        {
+            resultMatrix[i][j] = firstMatrix[i][j] + secondMatrix[i][j]; //dodanie do siebie macierzy A i B
+        }
+    cout<<"\nWywolano funkcje double\n";
+    return resultMatrix;
+}
+int **addMatrix(int **firstMatrix, int **secondMatrix, int numberOfRows, int numberOfColumns)
+{
+    int **resultMatrix = new int *[numberOfRows]; //alokacja pamieci
+    for ( int i = 0; i < numberOfRows; ++i )
+    {
+        resultMatrix[i] = new int [numberOfColumns]; //alokacja pamieci
+    }
+
+    //dodanie macierzy
+    for(int i=0;i<numberOfRows;i++)
+        for(int j=0;j<numberOfColumns;j++)
+        {
+            resultMatrix[i][j] = firstMatrix[i][j] + secondMatrix[i][j]; //dodanie do siebie macierzy A i B
+        }
+    cout<<"\nWywolano funkcje int\n";
+    return resultMatrix;
+}
+
+double **subtractMatrix(double **firstMatrix, double **secondMatrix, int numberOfRows, int numberOfColumns)
 {
     //alkowanie pamieci dla tablicy z wynikiem
     double **resultMatrix = new double *[numberOfRows]; //alokacja pamieci
@@ -16,20 +57,10 @@ double **addMatrix(double **firstMatrix, double **secondMatrix, int numberOfRows
     for(int i=0;i<numberOfRows;i++)
         for(int j=0;j<numberOfColumns;j++)
         {
-            resultMatrix[i][j] = firstMatrix[i][j] + secondMatrix[i][j]; //dodanie do siebie macierzy A i B
+            resultMatrix[i][j] = firstMatrix[i][j] - secondMatrix[i][j]; //dodanie do siebie macierzy A i B
         }
-
-    //delete [] resultMatrix;
+    cout<<"\nWywolano funkcje double\n";
     return resultMatrix;
-}
-int **addMatrix(int **firstMatrix, int **secondMatrix, int numberOfRows, int numberOfColumns)
-{
-    throw logic_error("Not implemented");
-}
-
-double **subtractMatrix(double **firstMatrix, double **secondMatrix, int numberOfRows, int numberOfColumns)
-{
-    throw logic_error("Not implemented");
 }
 int **subtractMatrix(int **firstMatrix, int **secondMatrix, int numberOfRows, int numberOfColumns)
 {
