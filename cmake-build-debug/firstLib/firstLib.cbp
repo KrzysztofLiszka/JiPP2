@@ -5,7 +5,7 @@
 		<Option title="firstLib"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simpleCalc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\lab3Homework\;CMake Files\matrixApp\;CMake Files\matrixLib\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simpleCalc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\lab3Homework\;CMake Files\matrixApp\;CMake Files\matrixLib\;CMake Files\lab4\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib"/>
@@ -88,6 +88,9 @@
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixLib/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\matrixLib\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

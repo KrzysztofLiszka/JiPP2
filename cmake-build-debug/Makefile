@@ -206,6 +206,19 @@ matrixLib/fast:
 	$(MAKE) $(MAKESILENT) -f matrixLib\CMakeFiles\matrixLib.dir\build.make matrixLib/CMakeFiles/matrixLib.dir/build
 .PHONY : matrixLib/fast
 
+#=============================================================================
+# Target rules for targets named lab4
+
+# Build rule for target.
+lab4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab4
+.PHONY : lab4
+
+# fast build rule for target.
+lab4/fast:
+	$(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/build
+.PHONY : lab4/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -218,6 +231,7 @@ help:
 	@echo ... firstLib
 	@echo ... firstLibCall
 	@echo ... lab2Homework
+	@echo ... lab4
 	@echo ... matrixApp
 	@echo ... matrixLib
 	@echo ... simpleCalc

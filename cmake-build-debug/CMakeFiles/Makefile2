@@ -69,6 +69,7 @@ all: firstLibCall/all
 all: lab3Homework/all
 all: matrixApp/all
 all: matrixLib/all
+all: lab4/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -79,6 +80,7 @@ preinstall: firstLibCall/preinstall
 preinstall: lab3Homework/preinstall
 preinstall: matrixApp/preinstall
 preinstall: matrixLib/preinstall
+preinstall: lab4/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -89,6 +91,7 @@ clean: firstLibCall/clean
 clean: lab3Homework/clean
 clean: matrixApp/clean
 clean: matrixLib/clean
+clean: lab4/clean
 .PHONY : clean
 
 #=============================================================================
@@ -150,6 +153,21 @@ lab3Homework/preinstall:
 # Recursive "clean" directory target.
 lab3Homework/clean: lab3Homework/CMakeFiles/lab2Homework.dir/clean
 .PHONY : lab3Homework/clean
+
+#=============================================================================
+# Directory level rules for directory lab4
+
+# Recursive "all" directory target.
+lab4/all: lab4/CMakeFiles/lab4.dir/all
+.PHONY : lab4/all
+
+# Recursive "preinstall" directory target.
+lab4/preinstall:
+.PHONY : lab4/preinstall
+
+# Recursive "clean" directory target.
+lab4/clean: lab4/CMakeFiles/lab4.dir/clean
+.PHONY : lab4/clean
 
 #=============================================================================
 # Directory level rules for directory matrixApp
@@ -229,7 +247,7 @@ allocation_basics/CMakeFiles/allocation_basics.dir/clean:
 simpleCalc/CMakeFiles/simpleCalc.dir/all:
 	$(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/depend
 	$(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=18,19,20 "Built target simpleCalc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=22,23,24 "Built target simpleCalc"
 .PHONY : simpleCalc/CMakeFiles/simpleCalc.dir/all
 
 # Build rule for subdir invocation for target.
@@ -333,7 +351,7 @@ lab3Homework/CMakeFiles/lab2Homework.dir/clean:
 matrixApp/CMakeFiles/matrixApp.dir/all: matrixLib/CMakeFiles/matrixLib.dir/all
 	$(MAKE) $(MAKESILENT) -f matrixApp\CMakeFiles\matrixApp.dir\build.make matrixApp/CMakeFiles/matrixApp.dir/depend
 	$(MAKE) $(MAKESILENT) -f matrixApp\CMakeFiles\matrixApp.dir\build.make matrixApp/CMakeFiles/matrixApp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=13,14,15 "Built target matrixApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=17,18,19 "Built target matrixApp"
 .PHONY : matrixApp/CMakeFiles/matrixApp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -359,7 +377,7 @@ matrixApp/CMakeFiles/matrixApp.dir/clean:
 matrixLib/CMakeFiles/matrixLib.dir/all:
 	$(MAKE) $(MAKESILENT) -f matrixLib\CMakeFiles\matrixLib.dir\build.make matrixLib/CMakeFiles/matrixLib.dir/depend
 	$(MAKE) $(MAKESILENT) -f matrixLib\CMakeFiles\matrixLib.dir\build.make matrixLib/CMakeFiles/matrixLib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=16,17 "Built target matrixLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=20,21 "Built target matrixLib"
 .PHONY : matrixLib/CMakeFiles/matrixLib.dir/all
 
 # Build rule for subdir invocation for target.
@@ -377,6 +395,32 @@ matrixLib: matrixLib/CMakeFiles/matrixLib.dir/rule
 matrixLib/CMakeFiles/matrixLib.dir/clean:
 	$(MAKE) $(MAKESILENT) -f matrixLib\CMakeFiles\matrixLib.dir\build.make matrixLib/CMakeFiles/matrixLib.dir/clean
 .PHONY : matrixLib/CMakeFiles/matrixLib.dir/clean
+
+#=============================================================================
+# Target rules for target lab4/CMakeFiles/lab4.dir
+
+# All Build rule for target.
+lab4/CMakeFiles/lab4.dir/all:
+	$(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/depend
+	$(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=13,14,15,16 "Built target lab4"
+.PHONY : lab4/CMakeFiles/lab4.dir/all
+
+# Build rule for subdir invocation for target.
+lab4/CMakeFiles/lab4.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab4/CMakeFiles/lab4.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 0
+.PHONY : lab4/CMakeFiles/lab4.dir/rule
+
+# Convenience name for target.
+lab4: lab4/CMakeFiles/lab4.dir/rule
+.PHONY : lab4
+
+# clean rule for target.
+lab4/CMakeFiles/lab4.dir/clean:
+	$(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/clean
+.PHONY : lab4/CMakeFiles/lab4.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
