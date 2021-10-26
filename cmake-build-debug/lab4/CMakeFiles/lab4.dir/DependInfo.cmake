@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/cuboid.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab4/CMakeFiles/lab4.dir/include/cuboid.cpp.obj"
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/cuboid.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.obj"
   "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/functions.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab4/CMakeFiles/lab4.dir/src/functions.cpp.obj"
   "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/main.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab4/CMakeFiles/lab4.dir/src/main.cpp.obj"
   )

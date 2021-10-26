@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/lab4.dir/include/cuboid.cpp.obj"
+  "CMakeFiles/lab4.dir/src/cuboid.cpp.obj"
   "CMakeFiles/lab4.dir/src/functions.cpp.obj"
   "CMakeFiles/lab4.dir/src/main.cpp.obj"
   "lab4.exe"

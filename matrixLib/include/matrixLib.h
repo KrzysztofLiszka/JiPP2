@@ -3,6 +3,8 @@
 
 double **allocateMemoryForMatrix(int numberOfRows, int numberOfColumns);
 
+bool isInputInteger(double firstMatrix, double secondMatrix, int numberOfRowsInFirstMatrix, int numberOfColumnsInFirstMatrix, int numberOfColumnsInSecondMatrix);
+
 double **addMatrix(double **firstMatrix, double **secondMatrix, int numberOfRows, int numberOfColumns);
 int **addMatrix(int **firstMatrix, int **secondMatrix, int numberOfRows, int numberOfColumns);
 
@@ -35,6 +37,7 @@ int **sortRow(int **arrayToSort, int numberOfColumns);
 
 double **sortRowsInMatrix(double **firstMatrix, int numberOfRows, int numberOfColumns);
 int **sortRowsInMatrix(int **firstMatrix, int numberOfRows, int numberOfColumns);
+
 
 void help();
 

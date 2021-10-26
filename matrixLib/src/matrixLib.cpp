@@ -3,6 +3,7 @@
 
 using namespace std;
 
+
 double **allocateMemoryForMatrix(int numberOfRows, int numberOfColumns)
 {
     double **allocatedMatrix = new double *[numberOfRows];

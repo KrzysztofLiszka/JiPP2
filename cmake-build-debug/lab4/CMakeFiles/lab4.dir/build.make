@@ -91,31 +91,31 @@ lab4/CMakeFiles/lab4.dir/src/functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab4.dir/src/functions.cpp.s"
 	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\functions.cpp -o CMakeFiles\lab4.dir\src\functions.cpp.s
 
-lab4/CMakeFiles/lab4.dir/include/cuboid.cpp.obj: lab4/CMakeFiles/lab4.dir/flags.make
-lab4/CMakeFiles/lab4.dir/include/cuboid.cpp.obj: ../lab4/include/cuboid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lab4/CMakeFiles/lab4.dir/include/cuboid.cpp.obj"
-	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab4.dir\include\cuboid.cpp.obj -c C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\include\cuboid.cpp
+lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.obj: lab4/CMakeFiles/lab4.dir/flags.make
+lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.obj: ../lab4/src/cuboid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.obj"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab4.dir\src\cuboid.cpp.obj -c C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\cuboid.cpp
 
-lab4/CMakeFiles/lab4.dir/include/cuboid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab4.dir/include/cuboid.cpp.i"
-	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\include\cuboid.cpp > CMakeFiles\lab4.dir\include\cuboid.cpp.i
+lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab4.dir/src/cuboid.cpp.i"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\cuboid.cpp > CMakeFiles\lab4.dir\src\cuboid.cpp.i
 
-lab4/CMakeFiles/lab4.dir/include/cuboid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab4.dir/include/cuboid.cpp.s"
-	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\include\cuboid.cpp -o CMakeFiles\lab4.dir\include\cuboid.cpp.s
+lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab4.dir/src/cuboid.cpp.s"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\cuboid.cpp -o CMakeFiles\lab4.dir\src\cuboid.cpp.s
 
 # Object files for target lab4
 lab4_OBJECTS = \
 "CMakeFiles/lab4.dir/src/main.cpp.obj" \
 "CMakeFiles/lab4.dir/src/functions.cpp.obj" \
-"CMakeFiles/lab4.dir/include/cuboid.cpp.obj"
+"CMakeFiles/lab4.dir/src/cuboid.cpp.obj"
 
 # External object files for target lab4
 lab4_EXTERNAL_OBJECTS =
 
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/main.cpp.obj
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/functions.cpp.obj
-lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/include/cuboid.cpp.obj
+lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.obj
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/build.make
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/linklibs.rsp
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/objects1.rsp

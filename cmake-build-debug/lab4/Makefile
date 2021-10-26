@@ -129,29 +129,29 @@ lab4/fast:
 	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/build
 .PHONY : lab4/fast
 
-include/cuboid.obj: include/cuboid.cpp.obj
-.PHONY : include/cuboid.obj
+src/cuboid.obj: src/cuboid.cpp.obj
+.PHONY : src/cuboid.obj
 
 # target to build an object file
-include/cuboid.cpp.obj:
-	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/include/cuboid.cpp.obj
-.PHONY : include/cuboid.cpp.obj
+src/cuboid.cpp.obj:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.obj
+.PHONY : src/cuboid.cpp.obj
 
-include/cuboid.i: include/cuboid.cpp.i
-.PHONY : include/cuboid.i
+src/cuboid.i: src/cuboid.cpp.i
+.PHONY : src/cuboid.i
 
 # target to preprocess a source file
-include/cuboid.cpp.i:
-	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/include/cuboid.cpp.i
-.PHONY : include/cuboid.cpp.i
+src/cuboid.cpp.i:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.i
+.PHONY : src/cuboid.cpp.i
 
-include/cuboid.s: include/cuboid.cpp.s
-.PHONY : include/cuboid.s
+src/cuboid.s: src/cuboid.cpp.s
+.PHONY : src/cuboid.s
 
 # target to generate assembly for a file
-include/cuboid.cpp.s:
-	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/include/cuboid.cpp.s
-.PHONY : include/cuboid.cpp.s
+src/cuboid.cpp.s:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.s
+.PHONY : src/cuboid.cpp.s
 
 src/functions.obj: src/functions.cpp.obj
 .PHONY : src/functions.obj
@@ -210,9 +210,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab4
-	@echo ... include/cuboid.obj
-	@echo ... include/cuboid.i
-	@echo ... include/cuboid.s
+	@echo ... src/cuboid.obj
+	@echo ... src/cuboid.i
+	@echo ... src/cuboid.s
 	@echo ... src/functions.obj
 	@echo ... src/functions.i
 	@echo ... src/functions.s

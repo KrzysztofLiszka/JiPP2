@@ -62,13 +62,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/cuboid.cpp">
-			<Option target="lab4"/>
-		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/cuboid.h">
 			<Option target="lab4"/>
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/functions.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/cuboid.cpp">
 			<Option target="lab4"/>
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/functions.cpp">
