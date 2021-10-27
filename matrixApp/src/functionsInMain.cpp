@@ -28,13 +28,24 @@ void displayNumberOfRowsAndColumns(int numberOfRowsInFirstMatrix, int numberOfCo
     cout<<"\nMacierz 1 - wierszy: "<<numberOfRowsInFirstMatrix<<", kolumn: "<<numberOfColumnsInFirstMatrix<<endl;
     cout<<"Macierz 2 - wierszy: "<<numberOfRowsInSecondMatrix<<", kolumn: "<<numberOfColumnsInSecondMatrix<<endl;
 }
-void **getElementsToMatrixFromUser(double **matrix, int numberOfRows, int numberOfColumns)
+void **getElementsToDoubleMatrixFromUser(double **matrix, int numberOfRows, int numberOfColumns)
 {
     for( int i = 0; i < numberOfRows; ++i )
     {
         for ( int j = 0; j < numberOfColumns; ++j)
         {
-            cout<<"\nKolumna "<<i+1<<", wiersz "<<j+1<<": ";
+            cout<<"\nWiersz "<<i+1<<", Kolumna "<<j+1<<": ";
+            cin>>matrix[i][j];
+        }
+    }
+}
+void **getElementsToIntMatrixFromUser(int **matrix, int numberOfRows, int numberOfColumns)
+{
+    for( int i = 0; i < numberOfRows; ++i )
+    {
+        for ( int j = 0; j < numberOfColumns; ++j)
+        {
+            cout<<"\nWiersz "<<i+1<<", Kolumna "<<j+1<<": ";
             cin>>matrix[i][j];
         }
     }

@@ -1,7 +1,8 @@
 #ifndef MATRIXLIB_H
 #define MATRIXLIB_H
 
-double **allocateMemoryForMatrix(int numberOfRows, int numberOfColumns);
+int **allocateMemoryForMatrixTypeInt(int numberOfRows, int numberOfColumns);
+double **allocateMemoryForMatrixTypeDouble(int numberOfRows, int numberOfColumns);
 
 bool isInputInteger(double firstMatrix, double secondMatrix, int numberOfRowsInFirstMatrix, int numberOfColumnsInFirstMatrix, int numberOfColumnsInSecondMatrix);
 

@@ -4,19 +4,28 @@
 using namespace std;
 
 
-double **allocateMemoryForMatrix(int numberOfRows, int numberOfColumns)
+double **allocateMemoryForMatrixTypeDouble(int numberOfRows, int numberOfColumns)
 {
     double **allocatedMatrix = new double *[numberOfRows];
-    for ( int i = 0; i < numberOfRows; ++i )
-    {
-        allocatedMatrix[i] = new double [numberOfColumns];
+    for (int i = 0; i < numberOfRows; ++i) {
+        allocatedMatrix[i] = new double[numberOfColumns];
+    }
+    return allocatedMatrix;
+}
+int **allocateMemoryForMatrixTypeInt(int numberOfRows, int numberOfColumns)
+{
+    int **allocatedMatrix = new int *[numberOfRows];
+    for (int i = 0; i < numberOfRows; ++i) {
+        allocatedMatrix[i] = new int[numberOfColumns];
     }
     return allocatedMatrix;
 }
 
+
 double **addMatrix(double **firstMatrix, double **secondMatrix, int numberOfRows, int numberOfColumns)
 {
-    double **resultMatrix = allocateMemoryForMatrix(numberOfRows, numberOfColumns);
+    //alokowanie pamieci dla tablicy z wynikiem
+    double **resultMatrix = allocateMemoryForMatrixTypeDouble(numberOfRows, numberOfColumns);
 
     //dodanie macierzy
     for(int i=0;i<numberOfRows;i++)
@@ -47,34 +56,65 @@ int **addMatrix(int **firstMatrix, int **secondMatrix, int numberOfRows, int num
 
 double **subtractMatrix(double **firstMatrix, double **secondMatrix, int numberOfRows, int numberOfColumns)
 {
-    //alkowanie pamieci dla tablicy z wynikiem
-    double **resultMatrix = new double *[numberOfRows]; //alokacja pamieci
-    for ( int i = 0; i < numberOfRows; ++i )
-    {
-        resultMatrix[i] = new double [numberOfColumns]; //alokacja pamieci
-    }
+    //alokowanie pamieci dla tablicy z wynikiem
+    double **resultMatrix = allocateMemoryForMatrixTypeDouble(numberOfRows, numberOfColumns);
 
-    //dodanie macierzy
+    //odejmowanie macierzy
     for(int i=0;i<numberOfRows;i++)
         for(int j=0;j<numberOfColumns;j++)
         {
-            resultMatrix[i][j] = firstMatrix[i][j] - secondMatrix[i][j]; //dodanie do siebie macierzy A i B
+            resultMatrix[i][j] = firstMatrix[i][j] - secondMatrix[i][j];
         }
     cout<<"\nWywolano funkcje double\n";
     return resultMatrix;
 }
 int **subtractMatrix(int **firstMatrix, int **secondMatrix, int numberOfRows, int numberOfColumns)
 {
-    throw logic_error("Not implemented");
-}
+    //alokowanie pamieci dla tablicy z wynikiem
+    int **resultMatrix = allocateMemoryForMatrixTypeInt(numberOfRows, numberOfColumns);
 
+    //odejmowanie macierzy
+    for(int i=0;i<numberOfRows;i++)
+        for(int j=0;j<numberOfColumns;j++)
+        {
+            resultMatrix[i][j] = firstMatrix[i][j] - secondMatrix[i][j];
+        }
+    cout<<"\nWywolano funkcje int\n";
+    return resultMatrix;
+}
 double **multiplyMatrix(double **firstMatrix, double **secondMatrix, int numberOfRowsInFirstMatrix, int numberOfColumnsInFirstMatrix, int numberOfColumnsInSecondMatrix)
 {
-    throw logic_error("Not implemented");
+    //alokowanie pamieci dla tablicy z wynikiem
+    double **resultMatrix = allocateMemoryForMatrixTypeDouble(numberOfRowsInFirstMatrix, numberOfColumnsInSecondMatrix);
+
+    double helper;
+
+    for(int i = 0; i < numberOfRowsInFirstMatrix; i++ )
+        for(int j = 0; j < numberOfColumnsInSecondMatrix; j++ )
+        {
+            helper = 0;
+            for(int k = 0; k < numberOfColumnsInFirstMatrix; k++ ) helper += firstMatrix [ i ][ k ] * secondMatrix [ k ][ j ];
+            resultMatrix [ i ][ j ] = helper;
+        }
+    cout<<"\nWywolano funkcje typu double\n";
+    return resultMatrix;
 }
 int **multiplyMatrix(int **firstMatrix, int **secondMatrix, int numberOfRowsInFirstMatrix, int numberOfColumnsInFirstMatrix, int numberOfColumnsInSecondMatrix)
 {
-    throw logic_error("Not implemented");
+    //alokowanie pamieci dla tablicy z wynikiem
+    int **resultMatrix = allocateMemoryForMatrixTypeInt(numberOfRowsInFirstMatrix, numberOfColumnsInSecondMatrix);
+
+    int helper;
+
+    for(int i = 0; i < numberOfRowsInFirstMatrix; i++ )
+        for(int j = 0; j < numberOfColumnsInSecondMatrix; j++ )
+        {
+            helper = 0;
+            for(int k = 0; k < numberOfColumnsInFirstMatrix; k++ ) helper += firstMatrix [ i ][ k ] * secondMatrix [ k ][ j ];
+            resultMatrix [ i ][ j ] = helper;
+        }
+    cout<<"\nWywolano funkcje typu int\n";
+    return resultMatrix;
 }
 
 double **multiplyByScalar(double **firstMatrix, int numberOfRows, int numberOfColumns, double scalar)
