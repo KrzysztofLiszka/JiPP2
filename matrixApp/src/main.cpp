@@ -53,7 +53,13 @@ int main(int argc, char *argv[])
         if(whatToDo=="addMatrix") resultMatrixInDouble = addMatrix(firstMatrixInDouble, secondMatrixInDouble, numberOfRowsInSecondMatrix, numberOfColumnsInSecondMatrix);
         if(whatToDo=="subtractMatrix") resultMatrixInDouble = subtractMatrix(firstMatrixInDouble, secondMatrixInDouble, numberOfRowsInSecondMatrix, numberOfColumnsInSecondMatrix);
         if(whatToDo=="multiplyMatrix") resultMatrixInDouble = multiplyMatrix(firstMatrixInDouble, secondMatrixInDouble, numberOfRowsInFirstMatrix, numberOfColumnsInFirstMatrix, numberOfColumnsInSecondMatrix);
-        if(whatToDo=="multiplyByScalar");
+        if(whatToDo=="multiplyByScalar")
+        {
+            double scalar;
+            cout<<"\nPodaj skalar: ";
+            cin>>scalar;
+            resultMatrixInDouble= multiplyByScalar(firstMatrixInDouble, numberOfRowsInFirstMatrix, numberOfColumnsInFirstMatrix, scalar);
+        }
         if(whatToDo=="transpozeMatrix");
         if(whatToDo=="powerMatrix");
         if(whatToDo=="determinantMatrix");
@@ -93,7 +99,13 @@ int main(int argc, char *argv[])
         if(whatToDo=="addMatrix") resultMatrixInInt = addMatrix(firstMatrixInInt, secondMatrixInInt, numberOfRowsInSecondMatrix, numberOfColumnsInSecondMatrix);
         if(whatToDo=="subtractMatrix") resultMatrixInInt = subtractMatrix(firstMatrixInInt, secondMatrixInInt, numberOfRowsInSecondMatrix, numberOfColumnsInSecondMatrix);
         if(whatToDo=="multiplyMatrix") resultMatrixInInt = multiplyMatrix(firstMatrixInInt, secondMatrixInInt, numberOfRowsInFirstMatrix, numberOfColumnsInFirstMatrix, numberOfColumnsInSecondMatrix);
-        if(whatToDo=="multiplyByScalar");
+        if(whatToDo=="multiplyByScalar")
+        {
+            int scalar;
+            cout<<"\nPodaj skalar: ";
+            cin>>scalar;
+            resultMatrixInInt= multiplyByScalar(firstMatrixInInt, numberOfRowsInFirstMatrix, numberOfColumnsInFirstMatrix, scalar);
+        }
         if(whatToDo=="transpozeMatrix");
         if(whatToDo=="powerMatrix");
         if(whatToDo=="determinantMatrix");

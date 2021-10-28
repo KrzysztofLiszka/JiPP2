@@ -119,16 +119,37 @@ int **multiplyMatrix(int **firstMatrix, int **secondMatrix, int numberOfRowsInFi
 
 double **multiplyByScalar(double **firstMatrix, int numberOfRows, int numberOfColumns, double scalar)
 {
-    throw logic_error("Not implemented");
+    //alokowanie pamieci dla tablicy z wynikiem
+    double **resultMatrix = allocateMemoryForMatrixTypeDouble(numberOfRows, numberOfColumns);
+
+    for(int i=0;i<numberOfRows;i++)
+        for(int j=0;j<numberOfColumns;j++)
+        {
+            resultMatrix[i][j] = firstMatrix[i][j] * scalar;
+        }
+    cout<<"\nWywolano funkcje double\n";
+    return resultMatrix;
 }
 int **multiplyByScalar(int **firstMatrix, int numberOfRows, int numberOfColumns, int scalar)
 {
-    throw logic_error("Not implemented");
+    //alokowanie pamieci dla tablicy z wynikiem
+    int **resultMatrix = allocateMemoryForMatrixTypeInt(numberOfRows, numberOfColumns);
+
+    for(int i=0;i<numberOfRows;i++)
+        for(int j=0;j<numberOfColumns;j++)
+        {
+            resultMatrix[i][j] = firstMatrix[i][j] * scalar;
+        }
+    cout<<"\nWywolano funkcje int\n";
+    return resultMatrix;
 }
 
 double **transpozeMatrix(double **firstMatrix, int numberOfRows, int numberOfColumns)
 {
-    throw logic_error("Not implemented");
+    //alokowanie pamieci dla tablicy z wynikiem
+    int **resultMatrix = allocateMemoryForMatrixTypeInt(numberOfColumns, numberOfRows);
+    for( iw = 0; iw < m; iw++ )
+        for( ik = 0; ik < n; ik++ ) B [ ik ][ iw ] = A [ iw ][ ik ];
 }
 int **transpozeMatrix(int **firstMatrix, int numberOfRows, int numberOfColumns)
 {

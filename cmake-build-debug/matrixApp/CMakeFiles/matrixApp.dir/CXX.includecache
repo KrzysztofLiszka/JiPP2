@@ -6,10 +6,14 @@
 
 #IncludeRegexTransform: 
 
+../matrixLib/include/matrixLib.h
+
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixApp/include/functionsInMain.h
 
-C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixApp/src/functionsInMain.cpp
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixApp/src/main.cpp
 iostream
+-
+matrixLib.h
 -
 ../include/functionsInMain.h
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixApp/include/functionsInMain.h
