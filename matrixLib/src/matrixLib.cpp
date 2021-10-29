@@ -24,69 +24,52 @@ int **allocateMemoryForMatrixTypeInt(int numberOfRows, int numberOfColumns)
 
 double **addMatrix(double **firstMatrix, double **secondMatrix, int numberOfRows, int numberOfColumns)
 {
-    //alokowanie pamieci dla tablicy z wynikiem
     double **resultMatrix = allocateMemoryForMatrixTypeDouble(numberOfRows, numberOfColumns);
 
-    //dodanie macierzy
     for(int i=0;i<numberOfRows;i++)
         for(int j=0;j<numberOfColumns;j++)
         {
-            resultMatrix[i][j] = firstMatrix[i][j] + secondMatrix[i][j]; //dodanie do siebie macierzy A i B
+            resultMatrix[i][j] = firstMatrix[i][j] + secondMatrix[i][j];
         }
-    cout<<"\nWywolano funkcje double\n";
     return resultMatrix;
 }
 int **addMatrix(int **firstMatrix, int **secondMatrix, int numberOfRows, int numberOfColumns)
 {
-    int **resultMatrix = new int *[numberOfRows]; //alokacja pamieci
-    for ( int i = 0; i < numberOfRows; ++i )
-    {
-        resultMatrix[i] = new int [numberOfColumns]; //alokacja pamieci
-    }
+    int **resultMatrix = allocateMemoryForMatrixTypeInt(numberOfRows, numberOfColumns);
 
-    //dodanie macierzy
     for(int i=0;i<numberOfRows;i++)
         for(int j=0;j<numberOfColumns;j++)
         {
-            resultMatrix[i][j] = firstMatrix[i][j] + secondMatrix[i][j]; //dodanie do siebie macierzy A i B
+            resultMatrix[i][j] = firstMatrix[i][j] + secondMatrix[i][j];
         }
-    cout<<"\nWywolano funkcje int\n";
     return resultMatrix;
 }
 
 double **subtractMatrix(double **firstMatrix, double **secondMatrix, int numberOfRows, int numberOfColumns)
 {
-    //alokowanie pamieci dla tablicy z wynikiem
     double **resultMatrix = allocateMemoryForMatrixTypeDouble(numberOfRows, numberOfColumns);
 
-    //odejmowanie macierzy
     for(int i=0;i<numberOfRows;i++)
         for(int j=0;j<numberOfColumns;j++)
         {
             resultMatrix[i][j] = firstMatrix[i][j] - secondMatrix[i][j];
         }
-    cout<<"\nWywolano funkcje double\n";
     return resultMatrix;
 }
 int **subtractMatrix(int **firstMatrix, int **secondMatrix, int numberOfRows, int numberOfColumns)
 {
-    //alokowanie pamieci dla tablicy z wynikiem
     int **resultMatrix = allocateMemoryForMatrixTypeInt(numberOfRows, numberOfColumns);
 
-    //odejmowanie macierzy
     for(int i=0;i<numberOfRows;i++)
         for(int j=0;j<numberOfColumns;j++)
         {
             resultMatrix[i][j] = firstMatrix[i][j] - secondMatrix[i][j];
         }
-    cout<<"\nWywolano funkcje int\n";
     return resultMatrix;
 }
 double **multiplyMatrix(double **firstMatrix, double **secondMatrix, int numberOfRowsInFirstMatrix, int numberOfColumnsInFirstMatrix, int numberOfColumnsInSecondMatrix)
 {
-    //alokowanie pamieci dla tablicy z wynikiem
     double **resultMatrix = allocateMemoryForMatrixTypeDouble(numberOfRowsInFirstMatrix, numberOfColumnsInSecondMatrix);
-
     double helper;
 
     for(int i = 0; i < numberOfRowsInFirstMatrix; i++ )
@@ -96,12 +79,10 @@ double **multiplyMatrix(double **firstMatrix, double **secondMatrix, int numberO
             for(int k = 0; k < numberOfColumnsInFirstMatrix; k++ ) helper += firstMatrix [ i ][ k ] * secondMatrix [ k ][ j ];
             resultMatrix [ i ][ j ] = helper;
         }
-    cout<<"\nWywolano funkcje typu double\n";
     return resultMatrix;
 }
 int **multiplyMatrix(int **firstMatrix, int **secondMatrix, int numberOfRowsInFirstMatrix, int numberOfColumnsInFirstMatrix, int numberOfColumnsInSecondMatrix)
 {
-    //alokowanie pamieci dla tablicy z wynikiem
     int **resultMatrix = allocateMemoryForMatrixTypeInt(numberOfRowsInFirstMatrix, numberOfColumnsInSecondMatrix);
 
     int helper;
@@ -113,13 +94,11 @@ int **multiplyMatrix(int **firstMatrix, int **secondMatrix, int numberOfRowsInFi
             for(int k = 0; k < numberOfColumnsInFirstMatrix; k++ ) helper += firstMatrix [ i ][ k ] * secondMatrix [ k ][ j ];
             resultMatrix [ i ][ j ] = helper;
         }
-    cout<<"\nWywolano funkcje typu int\n";
     return resultMatrix;
 }
 
 double **multiplyByScalar(double **firstMatrix, int numberOfRows, int numberOfColumns, double scalar)
 {
-    //alokowanie pamieci dla tablicy z wynikiem
     double **resultMatrix = allocateMemoryForMatrixTypeDouble(numberOfRows, numberOfColumns);
 
     for(int i=0;i<numberOfRows;i++)
@@ -127,12 +106,10 @@ double **multiplyByScalar(double **firstMatrix, int numberOfRows, int numberOfCo
         {
             resultMatrix[i][j] = firstMatrix[i][j] * scalar;
         }
-    cout<<"\nWywolano funkcje double\n";
     return resultMatrix;
 }
 int **multiplyByScalar(int **firstMatrix, int numberOfRows, int numberOfColumns, int scalar)
 {
-    //alokowanie pamieci dla tablicy z wynikiem
     int **resultMatrix = allocateMemoryForMatrixTypeInt(numberOfRows, numberOfColumns);
 
     for(int i=0;i<numberOfRows;i++)
@@ -140,77 +117,259 @@ int **multiplyByScalar(int **firstMatrix, int numberOfRows, int numberOfColumns,
         {
             resultMatrix[i][j] = firstMatrix[i][j] * scalar;
         }
-    cout<<"\nWywolano funkcje int\n";
     return resultMatrix;
 }
 
 double **transpozeMatrix(double **firstMatrix, int numberOfRows, int numberOfColumns)
 {
-    //alokowanie pamieci dla tablicy z wynikiem
-    int **resultMatrix = allocateMemoryForMatrixTypeInt(numberOfColumns, numberOfRows);
-    for( iw = 0; iw < m; iw++ )
-        for( ik = 0; ik < n; ik++ ) B [ ik ][ iw ] = A [ iw ][ ik ];
+    double **resultMatrix = allocateMemoryForMatrixTypeDouble(numberOfColumns, numberOfRows);
+
+    for (int i = 0; i < numberOfRows; ++i)
+        for (int j = 0; j < numberOfColumns; ++j) {
+            resultMatrix[j][i] = firstMatrix[i][j];
+        }
+    return resultMatrix;
 }
 int **transpozeMatrix(int **firstMatrix, int numberOfRows, int numberOfColumns)
 {
-    throw logic_error("Not implemented");
+    int **resultMatrix = allocateMemoryForMatrixTypeInt(numberOfColumns, numberOfRows);
+
+    for (int i = 0; i < numberOfRows; ++i)
+        for (int j = 0; j < numberOfColumns; ++j) {
+            resultMatrix[j][i] = firstMatrix[i][j];
+        }
+    return resultMatrix;
 }
 
 double **powerMatrix(double **firstMatrix, int numberOfRows, int numberOfColumns, unsigned int exponent)
 {
-    throw logic_error("Not implemented");
+    double **resultMatrix = allocateMemoryForMatrixTypeDouble(numberOfRows, numberOfColumns);
+    double **helperArray = allocateMemoryForMatrixTypeDouble(numberOfRows, numberOfColumns);
+
+    for (int i = 0; i < numberOfRows; ++i) {
+        for (int j = 0; j < numberOfColumns; ++j) {
+            resultMatrix[i][j] = firstMatrix[i][j];
+            helperArray[i][j] = firstMatrix[i][j];
+        }
+    }
+    if(exponent>0)
+    {
+        for(int i=2; i<= exponent;i++)
+        {
+            resultMatrix = multiplyMatrix(resultMatrix, helperArray, numberOfRows, numberOfColumns, numberOfColumns);
+        }
+    }
+    else if(exponent==0)
+    {
+        for (int i = 0; i < numberOfRows; i++) {
+            for (int j = 0; j < numberOfColumns; j++) {
+                if (i == j) resultMatrix[i][j] = 1;
+                else resultMatrix[i][j] = 0;
+            }
+        }
+    }
+
+    for(int i=0; i<numberOfRows; i++) delete [] helperArray[i];
+    delete [] helperArray;
+
+    return resultMatrix;
 }
+
 int **powerMatrix(int **firstMatrix, int numberOfRows, int numberOfColumns, unsigned int exponent)
 {
-    throw logic_error("Not implemented");
+    int **resultMatrix = allocateMemoryForMatrixTypeInt(numberOfRows, numberOfColumns);
+    int **helperArray = allocateMemoryForMatrixTypeInt(numberOfRows, numberOfColumns);
+
+    for (int i = 0; i < numberOfRows; ++i) {
+        for (int j = 0; j < numberOfColumns; ++j) {
+            resultMatrix[i][j] = firstMatrix[i][j];
+            helperArray[i][j] = firstMatrix[i][j];
+        }
+    }
+    if(exponent>0)
+    {
+        for(int i=2; i<= exponent;i++)
+        {
+            resultMatrix = multiplyMatrix(resultMatrix, helperArray, numberOfRows, numberOfColumns, numberOfColumns);
+        }
+    }
+    else if(exponent==0)
+    {
+        for (int i = 0; i < numberOfRows; i++) {
+            for (int j = 0; j < numberOfColumns; j++) {
+                if (i == j) resultMatrix[i][j] = 1;
+                else resultMatrix[i][j] = 0;
+            }
+        }
+    }
+
+    for(int i=0; i<numberOfRows; i++) delete [] helperArray[i];
+    delete [] helperArray;
+
+    return resultMatrix;
+}
+
+void helperForDeterminantInt(int **matrix, int **temporaryMatrix, int row, int column, int n)
+{
+    int r = 0, c = 0;
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0; j<n; j++)
+        {
+            if((i != row) && (j != column))
+            {
+                temporaryMatrix[r][c++] = matrix[i][j];
+                if(c==n-1)
+                {
+                    c=0;
+                    r++;
+                }
+            }
+        }
+    }
+}
+void helperForDeterminantDouble(double **matrix, double **temporaryMatrix, int row, int column, int n)
+{
+    int r = 0, c = 0;
+    for(int i=0;i<n;i++)
+    {
+        for(int j=0; j<n; j++)
+        {
+            if((i != row) && (j != column))
+            {
+                temporaryMatrix[r][c++] = matrix[i][j];
+                if(c==n-1)
+                {
+                    c=0;
+                    r++;
+                }
+            }
+        }
+    }
 }
 
 double determinantMatrix(double **firstMatrix, int numberOfRows, int numberOfColumns)
 {
-    throw logic_error("Not implemented");
+    int result = 0;
+    int helper = 1;
+
+    double **helperMatrix = allocateMemoryForMatrixTypeDouble(numberOfRows, numberOfColumns);
+
+    if(numberOfRows==1)
+    {
+        return firstMatrix[0][0];
+    }
+    if(numberOfRows==2)
+    {
+        return (firstMatrix[0][0] * firstMatrix[1][1] - (firstMatrix[0][1] * firstMatrix[1][0]));
+    }
+    for(int i=0; i<numberOfRows; i++)
+    {
+        helperForDeterminantDouble(firstMatrix, helperMatrix, 0, i, numberOfRows);
+        result+= helper * firstMatrix[0][i] * determinantMatrix(helperMatrix, numberOfRows-1, numberOfColumns);
+        helper = -helper;
+    }
+    return result;
 }
 int determinantMatrix(int **firstMatrix, int numberOfRows, int numberOfColumns)
 {
-    throw logic_error("Not implemented");
+    int result = 0;
+    int helper = 1;
+
+    int **helperMatrix = allocateMemoryForMatrixTypeInt(numberOfRows, numberOfColumns);
+
+    if(numberOfRows==1)
+    {
+        return firstMatrix[0][0];
+    }
+    if(numberOfRows==2)
+    {
+        return (firstMatrix[0][0] * firstMatrix[1][1] - (firstMatrix[0][1] * firstMatrix[1][0]));
+    }
+    for(int i=0; i<numberOfRows; i++)
+    {
+        helperForDeterminantInt(firstMatrix, helperMatrix, 0, i, numberOfRows);
+        result+= helper * firstMatrix[0][i] * determinantMatrix(helperMatrix, numberOfRows-1, numberOfColumns);
+        helper = -helper;
+    }
+    return result;
 }
 
 bool matrixIsDiagonal(double **firstMatrix, int numberOfRows, int numberOfColumns)
 {
-    throw logic_error("Not implemented");
+    for (int i = 0; i < numberOfRows; i++)
+        for (int j = 0; j < numberOfColumns; j++)
+            if ((i != j) && (firstMatrix[i][j] != 0))
+                return false;
+    return true;
 }
 bool matrixIsDiagonal(int **firstMatrix, int numberOfRows, int numberOfColumns)
 {
-    throw logic_error("Not implemented");
+    for (int i = 0; i < numberOfRows; i++)
+        for (int j = 0; j < numberOfColumns; j++)
+            if ((i != j) && (firstMatrix[i][j] != 0))
+                return false;
+    return true;
 }
 
 void swap(double &a, double &b)
 {
-    throw logic_error("Not implemented");
+    double helper = a;
+    a = b;
+    b = helper;
 }
 void swap(int &a, int &b)
 {
-    throw logic_error("Not implemented");
+    int helper = a;
+    a = b;
+    b = helper;
 }
 
-double **sortRow(double **arrayToSort, int numberOfColumns)
-{
-    throw logic_error("Not implemented");
+double *sortRow(double *arrayToSort, int numberOfColumns) {
+    double *arr = new double[numberOfColumns];
+
+    for(int i=0;i<numberOfColumns;i++) arr[i]=arrayToSort[i];
+    for (int i = 0; i < numberOfColumns; i++) {
+        for (int j = 0; j < numberOfColumns - 1; j++) {
+            if (arr[j] > arr[j + 1])
+                swap(arr[j+1], arr[j]);
+        }
+    }
+    return arr;
 }
-int **sortRow(int **arrayToSort, int numberOfColumns)
+int *sortRow(int *arrayToSort, int numberOfColumns)
 {
-    throw logic_error("Not implemented");
+    int *arr = new int[numberOfColumns];
+    for(int i=0;i<numberOfColumns;i++) arr[i]=arrayToSort[i];
+    for (int i = 0; i < numberOfColumns; i++) {
+        for (int j = 0; j < numberOfColumns - 1; j++) {
+            if (arr[j] > arr[j + 1])
+                swap(arr[j+1], arr[j]);
+        }
+    }
+    return arr;
 }
 
 double **sortRowsInMatrix(double **firstMatrix, int numberOfRows, int numberOfColumns)
 {
-    throw logic_error("Not implemented");
+    double **resultMatrix = allocateMemoryForMatrixTypeDouble(numberOfRows, numberOfColumns);
+
+    for (int i=0; i<numberOfRows;i++)
+        resultMatrix[i] = sortRow(firstMatrix[i], numberOfColumns);
+    return resultMatrix;
 }
 int **sortRowsInMatrix(int **firstMatrix, int numberOfRows, int numberOfColumns)
 {
-    throw logic_error("Not implemented");
+    int **resultMatrix = allocateMemoryForMatrixTypeInt(numberOfRows, numberOfColumns);
+    for (int i=0; i<numberOfRows;i++)
+        resultMatrix[i] = sortRow(firstMatrix[i], numberOfColumns);
+    return resultMatrix;
 }
 
 void help()
 {
-    throw logic_error("Not implemented");
+    cout<<"\nProgram poprosi o podanie ilosci kolumn i wierszy w macierzach 1 oraz 2\n";
+    cout<<"Gdy do naszego obliczenia potrzebna jest tylko jedna macierz nalezy podac wartosci i wymiary macierzy pierwszej, poniewaz to ona zostanie uzyta do obliczen.\n"
+          "Dla macierzy numer 2 podajemy wtedy dowolne wartosci i wymiary\n"
+          "Gdy podamy wymiary macierzy program bedzie prosil o podawanie wartosci poszczegolnych elementow\n\n\n";
 }

@@ -12,6 +12,18 @@ int main(int argc, char *argv[])
     bool isAnyMatrixDouble = true;
     int choiceOfMatrixType;
     string whatToDo = string(argv[1]);
+    if(whatToDo == "help")
+    {
+        help();
+        exit(0);
+    }
+    if(whatToDo != "addMatrix" && whatToDo != "subtractMatrix" && whatToDo != "multiplyMatrix" && whatToDo != "multiplyByScalar" && whatToDo != "transpozeMatrix" && whatToDo != "powerMatrix" && whatToDo != "determinantMatrix" && whatToDo != "matrixIsDiagonal" && whatToDo != "swap" && whatToDo != "sortRow" && whatToDo != "sortRowsInMatrix")
+    {
+        help();
+        exit(0);
+    }
+    cout<<"\n\nJEZELI TWOJE DZIALANIE WYMAGA TYLKO JEDNEJ MACIERZY MOZESZ PODAC DOWOLNE WYMIARY I WARTOSCI DLA MACIERZY DRUGIEJ!\n";
+    cout<<"JEZELI WYBRALES SWAP PODAJ DOWOLNE WARTOSCI I WYMIARY OBU MACIERZY!\n";
 
     //pobranie liczby wierszy i kolumn z macierzy pierwszej
     cout<<"\nMACIERZ 1:\n\n";
@@ -20,6 +32,9 @@ int main(int argc, char *argv[])
     //pobranie liczby wierszy i kolumn z macierzy drugiej
     cout<<"\nMACIERZ 2:\n\n";
     getNumberOfRowsAndColumnsInArrayFromUser(&numberOfRowsInSecondMatrix, &numberOfColumnsInSecondMatrix);
+
+    int rowsInResult = getNumberOfRowsInResultArray(whatToDo, numberOfRowsInFirstMatrix, numberOfRowsInSecondMatrix, numberOfColumnsInFirstMatrix);
+    int colsInResult = getNumberOfColsInResultArray(whatToDo, numberOfColumnsInFirstMatrix, numberOfColumnsInSecondMatrix, numberOfRowsInFirstMatrix);
 
     //wyswietlenie uzytkownikowi liczby kolumn i wierszy w macierzach
     displayNumberOfRowsAndColumns(numberOfRowsInFirstMatrix, numberOfColumnsInFirstMatrix, numberOfRowsInSecondMatrix, numberOfColumnsInSecondMatrix);
@@ -60,21 +75,60 @@ int main(int argc, char *argv[])
             cin>>scalar;
             resultMatrixInDouble= multiplyByScalar(firstMatrixInDouble, numberOfRowsInFirstMatrix, numberOfColumnsInFirstMatrix, scalar);
         }
-        if(whatToDo=="transpozeMatrix");
-        if(whatToDo=="powerMatrix");
-        if(whatToDo=="determinantMatrix");
-        if(whatToDo=="matrixIsDiagonal");
-        if(whatToDo=="swap");
-        if(whatToDo=="sortRow");
-        if(whatToDo=="sortRowsInMatrix");
-
-        cout << "\n\nWynik: \n";
-        for (int i = 0; i < numberOfRowsInSecondMatrix; i++) {
-            for (int j = 0; j < numberOfColumnsInSecondMatrix; j++) {
-                cout << resultMatrixInDouble[i][j] << "\t ";
-            }
-            cout << "\n";
+        if(whatToDo=="transpozeMatrix") resultMatrixInDouble = transpozeMatrix(firstMatrixInDouble, numberOfRowsInFirstMatrix, numberOfColumnsInFirstMatrix);
+        if(whatToDo=="powerMatrix")
+        {
+            int exponent;
+            cout<<"\nPodaj wykladnik potegi: ";
+            cin>>exponent;
+            resultMatrixInDouble = powerMatrix(firstMatrixInDouble, numberOfRowsInFirstMatrix, numberOfColumnsInFirstMatrix, exponent);
         }
+        if(whatToDo=="determinantMatrix")
+        {
+            cout<<"\nWyznacznik macierzy 1: "<<determinantMatrix(firstMatrixInDouble, numberOfRowsInFirstMatrix, numberOfColumnsInFirstMatrix);
+        }
+        if(whatToDo=="matrixIsDiagonal")
+        {
+            cout<<"\nCzy macierz jest diagonalna?: ";
+            if(matrixIsDiagonal(firstMatrixInDouble, numberOfRowsInFirstMatrix, numberOfColumnsInFirstMatrix)) cout<<"TAK\n";
+            else cout<<"NIE\n";
+        }
+        if(whatToDo=="swap")
+        {
+            double a, b;
+            cout<<"\nPodaj dwie liczby do zamiany\na: ";
+            cin>>a;
+            cout<<"\nb: ";
+            cin>>b;
+
+            swap(a, b);
+
+            cout<<"\nPo zamianie\na: "<<a<<", b: "<<b;
+        }
+        if(whatToDo=="sortRow")
+        {
+            cout<<"Podaj numer wiersza do posortowania z macierzy 1: ";
+            int rowToSort = 0;
+            cin>>rowToSort;
+            auto arr = new int[numberOfColumnsInFirstMatrix];
+            for (int i=0;i<numberOfColumnsInFirstMatrix;i++) {
+                arr[i] = firstMatrixInDouble[rowToSort - 1][i];
+            }
+            int *result = sortRow(arr, numberOfColumnsInFirstMatrix);
+            cout<<"\nWynik: ";
+            for (int i=0;i<numberOfColumnsInFirstMatrix;i++) cout<<result[i]<<" ";
+
+            //zwolnienie pamieci
+            delete [] arr;
+            delete [] result;
+        }
+        if(whatToDo=="sortRowsInMatrix")
+        {
+            cout<<"\nPosortowane wiersze w macierzy 1: ";
+            resultMatrixInDouble= sortRowsInMatrix(firstMatrixInDouble, numberOfRowsInFirstMatrix,numberOfColumnsInFirstMatrix);
+        }
+
+        if(whatToDo!="swap" && whatToDo!="matrixIsDiagonal" && whatToDo!="sortRow" && whatToDo!="determinantMatrix") displayResult(resultMatrixInInt, rowsInResult, colsInResult);
 
         //zwolnienie pamieci
         for(int i=0; i<numberOfRowsInFirstMatrix; i++) delete [] firstMatrixInDouble;
@@ -94,7 +148,7 @@ int main(int argc, char *argv[])
         //pobranie zawartosci macierzy drugiej
         cout << "\n\n------------------Podaj wartosci Macierzy 2------------------ \n";
         getElementsToIntMatrixFromUser(secondMatrixInInt, numberOfRowsInSecondMatrix,
-                                          numberOfColumnsInSecondMatrix);
+                                       numberOfColumnsInSecondMatrix);
 
         if(whatToDo=="addMatrix") resultMatrixInInt = addMatrix(firstMatrixInInt, secondMatrixInInt, numberOfRowsInSecondMatrix, numberOfColumnsInSecondMatrix);
         if(whatToDo=="subtractMatrix") resultMatrixInInt = subtractMatrix(firstMatrixInInt, secondMatrixInInt, numberOfRowsInSecondMatrix, numberOfColumnsInSecondMatrix);
@@ -106,21 +160,60 @@ int main(int argc, char *argv[])
             cin>>scalar;
             resultMatrixInInt= multiplyByScalar(firstMatrixInInt, numberOfRowsInFirstMatrix, numberOfColumnsInFirstMatrix, scalar);
         }
-        if(whatToDo=="transpozeMatrix");
-        if(whatToDo=="powerMatrix");
-        if(whatToDo=="determinantMatrix");
-        if(whatToDo=="matrixIsDiagonal");
-        if(whatToDo=="swap");
-        if(whatToDo=="sortRow");
-        if(whatToDo=="sortRowsInMatrix");
-
-        cout << "\n\nWynik: \n";
-        for (int i = 0; i < numberOfRowsInSecondMatrix; i++) {
-            for (int j = 0; j < numberOfColumnsInSecondMatrix; j++) {
-                cout << resultMatrixInInt[i][j] << "\t ";
-            }
-            cout << "\n";
+        if(whatToDo=="transpozeMatrix") resultMatrixInInt = transpozeMatrix(firstMatrixInInt, numberOfRowsInFirstMatrix, numberOfColumnsInFirstMatrix);
+        if(whatToDo=="powerMatrix")
+        {
+            int exponent;
+            cout<<"\nPodaj wykladnik potegi: ";
+            cin>>exponent;
+            resultMatrixInInt = powerMatrix(firstMatrixInInt, numberOfRowsInFirstMatrix, numberOfColumnsInFirstMatrix, exponent);
         }
+        if(whatToDo=="determinantMatrix")
+        {
+            cout<<"\nWyznacznik macierzy 1: "<<determinantMatrix(firstMatrixInInt, numberOfRowsInFirstMatrix, numberOfColumnsInFirstMatrix);
+        }
+        if(whatToDo=="matrixIsDiagonal")
+        {
+            cout<<"\nCzy macierz jest diagonalna?: ";
+            if(matrixIsDiagonal(firstMatrixInInt, numberOfRowsInFirstMatrix, numberOfColumnsInFirstMatrix)) cout<<"TAK\n";
+            else cout<<"NIE";
+        }
+        if(whatToDo=="swap")
+        {
+            int a, b;
+            cout<<"\nPodaj dwie liczby do zamiany\na: ";
+            cin>>a;
+            cout<<"\nb: ";
+            cin>>b;
+
+            swap(a, b);
+
+            cout<<"\nPo zamianie\na: "<<a<<", b: "<<b;
+        }
+        if(whatToDo=="sortRow")
+        {
+            cout<<"Podaj numer wiersza do posortowania z macierzy 1: ";
+            int rowToSort = 0;
+            cin>>rowToSort;
+            auto arr = new int[numberOfColumnsInFirstMatrix];
+            for (int i=0;i<numberOfColumnsInFirstMatrix;i++) {
+                arr[i] = firstMatrixInInt[rowToSort - 1][i];
+            }
+            int *result = sortRow(arr, numberOfColumnsInFirstMatrix);
+            cout<<"\nWynik: ";
+            for (int i=0;i<numberOfColumnsInFirstMatrix;i++) cout<<result[i]<<" ";
+
+            //zwolnienie pamieci
+            delete [] arr;
+            delete [] result;
+        }
+        if(whatToDo=="sortRowsInMatrix")
+        {
+            cout<<"\nPosortowane wiersze w macierzy 1: ";
+            resultMatrixInInt= sortRowsInMatrix(firstMatrixInInt, numberOfRowsInFirstMatrix,numberOfColumnsInFirstMatrix);
+        }
+
+        if(whatToDo!="swap" && whatToDo!="matrixIsDiagonal" && whatToDo!= "sortRow" && whatToDo!="determinantMatrix") displayResult(resultMatrixInInt, rowsInResult, colsInResult);
 
         //zwolnienie pamieci
         for(int i=0; i<numberOfRowsInFirstMatrix; i++) delete [] firstMatrixInInt;

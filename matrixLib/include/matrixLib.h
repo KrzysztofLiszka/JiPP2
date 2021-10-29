@@ -24,6 +24,9 @@ int **transpozeMatrix(int **firstMatrix, int numberOfRows, int numberOfColumns);
 double **powerMatrix(double **firstMatrix, int numberOfRows, int numberOfColumns, unsigned int exponent); //exponent - wykladnik potegi
 int **powerMatrix(int **firstMatrix, int numberOfRows, int numberOfColumns, unsigned int exponent); //exponent - wykladnik potegi
 
+void helperForDeterminantInt(int **matrix, int **temporaryMatrix, int row, int column, int n);
+void helperForDeterminantDouble(double **matrix, double **temporaryMatrix, int row, int column, int n);
+
 double determinantMatrix(double **firstMatrix, int numberOfRows, int numberOfColumns);
 int determinantMatrix(int **firstMatrix, int numberOfRows, int numberOfColumns);
 
@@ -33,8 +36,8 @@ bool matrixIsDiagonal(int **firstMatrix, int numberOfRows, int numberOfColumns);
 void swap(double &a, double &b);
 void swap(int &a, int &b);
 
-double **sortRow(double **arrayToSort, int numberOfColumns);
-int **sortRow(int **arrayToSort, int numberOfColumns);
+double *sortRow(double *arrayToSort, int numberOfColumns);
+int *sortRow(int *arrayToSort, int numberOfColumns);
 
 double **sortRowsInMatrix(double **firstMatrix, int numberOfRows, int numberOfColumns);
 int **sortRowsInMatrix(int **firstMatrix, int numberOfRows, int numberOfColumns);
