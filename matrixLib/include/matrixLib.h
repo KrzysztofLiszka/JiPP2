@@ -4,7 +4,6 @@
 int **allocateMemoryForMatrixTypeInt(int numberOfRows, int numberOfColumns);
 double **allocateMemoryForMatrixTypeDouble(int numberOfRows, int numberOfColumns);
 
-bool isInputInteger(double firstMatrix, double secondMatrix, int numberOfRowsInFirstMatrix, int numberOfColumnsInFirstMatrix, int numberOfColumnsInSecondMatrix);
 
 double **addMatrix(double **firstMatrix, double **secondMatrix, int numberOfRows, int numberOfColumns);
 int **addMatrix(int **firstMatrix, int **secondMatrix, int numberOfRows, int numberOfColumns);

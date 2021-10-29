@@ -128,7 +128,7 @@ int main(int argc, char *argv[])
             resultMatrixInDouble= sortRowsInMatrix(firstMatrixInDouble, numberOfRowsInFirstMatrix,numberOfColumnsInFirstMatrix);
         }
 
-        if(whatToDo!="swap" && whatToDo!="matrixIsDiagonal" && whatToDo!="sortRow" && whatToDo!="determinantMatrix") displayResult(resultMatrixInInt, rowsInResult, colsInResult);
+        if(whatToDo!="swap" && whatToDo!="matrixIsDiagonal" && whatToDo!="sortRow" && whatToDo!="determinantMatrix") displayResult(resultMatrixInDouble, rowsInResult, colsInResult);
 
         //zwolnienie pamieci
         for(int i=0; i<numberOfRowsInFirstMatrix; i++) delete [] firstMatrixInDouble;

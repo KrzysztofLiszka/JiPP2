@@ -3,19 +3,7 @@
 
 using namespace std;
 
-bool isInputInteger(double numberToCheck)
-{
-    //zablokowanie dzielenia przez 0 (gdy liczba do sprawdzenia wynosi 0 to wiadomo ze jest calkowita)
-    if(numberToCheck!=0 && (int) numberToCheck != 0)
-    {
-        //jezeli liczba jest calkowita to podzielona przez swoje zaokraglenie do liczby calkowitej da wynik 1
-        if (numberToCheck / ((int) numberToCheck) == 1) return true;
-        else return false;
-    }
-    //warunek ten jest konieczny do dzialania w przypadku niektorych liczb z powodu na to jak dziala konwersja na inta
-    else if(numberToCheck!=0 && (int) numberToCheck == 0) return false;
-    else return true;
-}
+
 void getNumberOfRowsAndColumnsInArrayFromUser(int *numberOfRows, int *numberOfColumns)
 {
     cout << "Podaj liczbe wierszy w macierzy: ";
