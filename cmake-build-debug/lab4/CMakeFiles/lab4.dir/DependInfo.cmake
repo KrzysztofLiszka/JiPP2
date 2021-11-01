@@ -8,7 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/cuboid.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.obj"
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/Cuboid.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab4/CMakeFiles/lab4.dir/src/Cuboid.cpp.obj"
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/Destructor.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab4/CMakeFiles/lab4.dir/src/Destructor.cpp.obj"
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/Figura.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab4/CMakeFiles/lab4.dir/src/Figura.cpp.obj"
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/Punkt.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab4/CMakeFiles/lab4.dir/src/Punkt.cpp.obj"
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/QuadraticFunction.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab4/CMakeFiles/lab4.dir/src/QuadraticFunction.cpp.obj"
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/Sphere.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab4/CMakeFiles/lab4.dir/src/Sphere.cpp.obj"
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/Student.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab4/CMakeFiles/lab4.dir/src/Student.cpp.obj"
   "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/functions.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab4/CMakeFiles/lab4.dir/src/functions.cpp.obj"
   "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/main.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab4/CMakeFiles/lab4.dir/src/main.cpp.obj"
   )

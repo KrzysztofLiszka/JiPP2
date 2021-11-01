@@ -91,36 +91,126 @@ lab4/CMakeFiles/lab4.dir/src/functions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab4.dir/src/functions.cpp.s"
 	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\functions.cpp -o CMakeFiles\lab4.dir\src\functions.cpp.s
 
-lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.obj: lab4/CMakeFiles/lab4.dir/flags.make
-lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.obj: ../lab4/src/cuboid.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.obj"
-	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab4.dir\src\cuboid.cpp.obj -c C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\cuboid.cpp
+lab4/CMakeFiles/lab4.dir/src/Cuboid.cpp.obj: lab4/CMakeFiles/lab4.dir/flags.make
+lab4/CMakeFiles/lab4.dir/src/Cuboid.cpp.obj: ../lab4/src/Cuboid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object lab4/CMakeFiles/lab4.dir/src/Cuboid.cpp.obj"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab4.dir\src\Cuboid.cpp.obj -c C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Cuboid.cpp
 
-lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab4.dir/src/cuboid.cpp.i"
-	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\cuboid.cpp > CMakeFiles\lab4.dir\src\cuboid.cpp.i
+lab4/CMakeFiles/lab4.dir/src/Cuboid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab4.dir/src/Cuboid.cpp.i"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Cuboid.cpp > CMakeFiles\lab4.dir\src\Cuboid.cpp.i
 
-lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab4.dir/src/cuboid.cpp.s"
-	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\cuboid.cpp -o CMakeFiles\lab4.dir\src\cuboid.cpp.s
+lab4/CMakeFiles/lab4.dir/src/Cuboid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab4.dir/src/Cuboid.cpp.s"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Cuboid.cpp -o CMakeFiles\lab4.dir\src\Cuboid.cpp.s
+
+lab4/CMakeFiles/lab4.dir/src/Sphere.cpp.obj: lab4/CMakeFiles/lab4.dir/flags.make
+lab4/CMakeFiles/lab4.dir/src/Sphere.cpp.obj: ../lab4/src/Sphere.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object lab4/CMakeFiles/lab4.dir/src/Sphere.cpp.obj"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab4.dir\src\Sphere.cpp.obj -c C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Sphere.cpp
+
+lab4/CMakeFiles/lab4.dir/src/Sphere.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab4.dir/src/Sphere.cpp.i"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Sphere.cpp > CMakeFiles\lab4.dir\src\Sphere.cpp.i
+
+lab4/CMakeFiles/lab4.dir/src/Sphere.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab4.dir/src/Sphere.cpp.s"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Sphere.cpp -o CMakeFiles\lab4.dir\src\Sphere.cpp.s
+
+lab4/CMakeFiles/lab4.dir/src/QuadraticFunction.cpp.obj: lab4/CMakeFiles/lab4.dir/flags.make
+lab4/CMakeFiles/lab4.dir/src/QuadraticFunction.cpp.obj: ../lab4/src/QuadraticFunction.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lab4/CMakeFiles/lab4.dir/src/QuadraticFunction.cpp.obj"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab4.dir\src\QuadraticFunction.cpp.obj -c C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\QuadraticFunction.cpp
+
+lab4/CMakeFiles/lab4.dir/src/QuadraticFunction.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab4.dir/src/QuadraticFunction.cpp.i"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\QuadraticFunction.cpp > CMakeFiles\lab4.dir\src\QuadraticFunction.cpp.i
+
+lab4/CMakeFiles/lab4.dir/src/QuadraticFunction.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab4.dir/src/QuadraticFunction.cpp.s"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\QuadraticFunction.cpp -o CMakeFiles\lab4.dir\src\QuadraticFunction.cpp.s
+
+lab4/CMakeFiles/lab4.dir/src/Student.cpp.obj: lab4/CMakeFiles/lab4.dir/flags.make
+lab4/CMakeFiles/lab4.dir/src/Student.cpp.obj: ../lab4/src/Student.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lab4/CMakeFiles/lab4.dir/src/Student.cpp.obj"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab4.dir\src\Student.cpp.obj -c C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Student.cpp
+
+lab4/CMakeFiles/lab4.dir/src/Student.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab4.dir/src/Student.cpp.i"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Student.cpp > CMakeFiles\lab4.dir\src\Student.cpp.i
+
+lab4/CMakeFiles/lab4.dir/src/Student.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab4.dir/src/Student.cpp.s"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Student.cpp -o CMakeFiles\lab4.dir\src\Student.cpp.s
+
+lab4/CMakeFiles/lab4.dir/src/Punkt.cpp.obj: lab4/CMakeFiles/lab4.dir/flags.make
+lab4/CMakeFiles/lab4.dir/src/Punkt.cpp.obj: ../lab4/src/Punkt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object lab4/CMakeFiles/lab4.dir/src/Punkt.cpp.obj"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab4.dir\src\Punkt.cpp.obj -c C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Punkt.cpp
+
+lab4/CMakeFiles/lab4.dir/src/Punkt.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab4.dir/src/Punkt.cpp.i"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Punkt.cpp > CMakeFiles\lab4.dir\src\Punkt.cpp.i
+
+lab4/CMakeFiles/lab4.dir/src/Punkt.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab4.dir/src/Punkt.cpp.s"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Punkt.cpp -o CMakeFiles\lab4.dir\src\Punkt.cpp.s
+
+lab4/CMakeFiles/lab4.dir/src/Figura.cpp.obj: lab4/CMakeFiles/lab4.dir/flags.make
+lab4/CMakeFiles/lab4.dir/src/Figura.cpp.obj: ../lab4/src/Figura.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object lab4/CMakeFiles/lab4.dir/src/Figura.cpp.obj"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab4.dir\src\Figura.cpp.obj -c C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Figura.cpp
+
+lab4/CMakeFiles/lab4.dir/src/Figura.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab4.dir/src/Figura.cpp.i"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Figura.cpp > CMakeFiles\lab4.dir\src\Figura.cpp.i
+
+lab4/CMakeFiles/lab4.dir/src/Figura.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab4.dir/src/Figura.cpp.s"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Figura.cpp -o CMakeFiles\lab4.dir\src\Figura.cpp.s
+
+lab4/CMakeFiles/lab4.dir/src/Destructor.cpp.obj: lab4/CMakeFiles/lab4.dir/flags.make
+lab4/CMakeFiles/lab4.dir/src/Destructor.cpp.obj: ../lab4/src/Destructor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object lab4/CMakeFiles/lab4.dir/src/Destructor.cpp.obj"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab4.dir\src\Destructor.cpp.obj -c C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Destructor.cpp
+
+lab4/CMakeFiles/lab4.dir/src/Destructor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab4.dir/src/Destructor.cpp.i"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Destructor.cpp > CMakeFiles\lab4.dir\src\Destructor.cpp.i
+
+lab4/CMakeFiles/lab4.dir/src/Destructor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab4.dir/src/Destructor.cpp.s"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab4\src\Destructor.cpp -o CMakeFiles\lab4.dir\src\Destructor.cpp.s
 
 # Object files for target lab4
 lab4_OBJECTS = \
 "CMakeFiles/lab4.dir/src/main.cpp.obj" \
 "CMakeFiles/lab4.dir/src/functions.cpp.obj" \
-"CMakeFiles/lab4.dir/src/cuboid.cpp.obj"
+"CMakeFiles/lab4.dir/src/Cuboid.cpp.obj" \
+"CMakeFiles/lab4.dir/src/Sphere.cpp.obj" \
+"CMakeFiles/lab4.dir/src/QuadraticFunction.cpp.obj" \
+"CMakeFiles/lab4.dir/src/Student.cpp.obj" \
+"CMakeFiles/lab4.dir/src/Punkt.cpp.obj" \
+"CMakeFiles/lab4.dir/src/Figura.cpp.obj" \
+"CMakeFiles/lab4.dir/src/Destructor.cpp.obj"
 
 # External object files for target lab4
 lab4_EXTERNAL_OBJECTS =
 
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/main.cpp.obj
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/functions.cpp.obj
-lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.obj
+lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/Cuboid.cpp.obj
+lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/Sphere.cpp.obj
+lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/QuadraticFunction.cpp.obj
+lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/Student.cpp.obj
+lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/Punkt.cpp.obj
+lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/Figura.cpp.obj
+lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/src/Destructor.cpp.obj
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/build.make
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/linklibs.rsp
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/objects1.rsp
 lab4/lab4.exe: lab4/CMakeFiles/lab4.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable lab4.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable lab4.exe"
 	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab4 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab4.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

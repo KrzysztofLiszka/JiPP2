@@ -432,13 +432,49 @@
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/src/random-Change-Reverse.cpp">
 			<Option target="lab2Homework"/>
 		</Unit>
-		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/cuboid.h">
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Cuboid.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Destructor.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Figura.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Punkt.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/QuadraticFunction.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Sphere.h">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Student.h">
 			<Option target="lab4"/>
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/functions.h">
 			<Option target="lab4"/>
 		</Unit>
-		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/cuboid.cpp">
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/Cuboid.cpp">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/Destructor.cpp">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/Figura.cpp">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/Punkt.cpp">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/QuadraticFunction.cpp">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/Sphere.cpp">
+			<Option target="lab4"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/Student.cpp">
 			<Option target="lab4"/>
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/functions.cpp">

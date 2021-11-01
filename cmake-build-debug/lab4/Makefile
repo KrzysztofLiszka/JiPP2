@@ -129,29 +129,173 @@ lab4/fast:
 	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/build
 .PHONY : lab4/fast
 
-src/cuboid.obj: src/cuboid.cpp.obj
-.PHONY : src/cuboid.obj
+src/Cuboid.obj: src/Cuboid.cpp.obj
+.PHONY : src/Cuboid.obj
 
 # target to build an object file
-src/cuboid.cpp.obj:
-	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.obj
-.PHONY : src/cuboid.cpp.obj
+src/Cuboid.cpp.obj:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Cuboid.cpp.obj
+.PHONY : src/Cuboid.cpp.obj
 
-src/cuboid.i: src/cuboid.cpp.i
-.PHONY : src/cuboid.i
+src/Cuboid.i: src/Cuboid.cpp.i
+.PHONY : src/Cuboid.i
 
 # target to preprocess a source file
-src/cuboid.cpp.i:
-	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.i
-.PHONY : src/cuboid.cpp.i
+src/Cuboid.cpp.i:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Cuboid.cpp.i
+.PHONY : src/Cuboid.cpp.i
 
-src/cuboid.s: src/cuboid.cpp.s
-.PHONY : src/cuboid.s
+src/Cuboid.s: src/Cuboid.cpp.s
+.PHONY : src/Cuboid.s
 
 # target to generate assembly for a file
-src/cuboid.cpp.s:
-	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/cuboid.cpp.s
-.PHONY : src/cuboid.cpp.s
+src/Cuboid.cpp.s:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Cuboid.cpp.s
+.PHONY : src/Cuboid.cpp.s
+
+src/Destructor.obj: src/Destructor.cpp.obj
+.PHONY : src/Destructor.obj
+
+# target to build an object file
+src/Destructor.cpp.obj:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Destructor.cpp.obj
+.PHONY : src/Destructor.cpp.obj
+
+src/Destructor.i: src/Destructor.cpp.i
+.PHONY : src/Destructor.i
+
+# target to preprocess a source file
+src/Destructor.cpp.i:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Destructor.cpp.i
+.PHONY : src/Destructor.cpp.i
+
+src/Destructor.s: src/Destructor.cpp.s
+.PHONY : src/Destructor.s
+
+# target to generate assembly for a file
+src/Destructor.cpp.s:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Destructor.cpp.s
+.PHONY : src/Destructor.cpp.s
+
+src/Figura.obj: src/Figura.cpp.obj
+.PHONY : src/Figura.obj
+
+# target to build an object file
+src/Figura.cpp.obj:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Figura.cpp.obj
+.PHONY : src/Figura.cpp.obj
+
+src/Figura.i: src/Figura.cpp.i
+.PHONY : src/Figura.i
+
+# target to preprocess a source file
+src/Figura.cpp.i:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Figura.cpp.i
+.PHONY : src/Figura.cpp.i
+
+src/Figura.s: src/Figura.cpp.s
+.PHONY : src/Figura.s
+
+# target to generate assembly for a file
+src/Figura.cpp.s:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Figura.cpp.s
+.PHONY : src/Figura.cpp.s
+
+src/Punkt.obj: src/Punkt.cpp.obj
+.PHONY : src/Punkt.obj
+
+# target to build an object file
+src/Punkt.cpp.obj:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Punkt.cpp.obj
+.PHONY : src/Punkt.cpp.obj
+
+src/Punkt.i: src/Punkt.cpp.i
+.PHONY : src/Punkt.i
+
+# target to preprocess a source file
+src/Punkt.cpp.i:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Punkt.cpp.i
+.PHONY : src/Punkt.cpp.i
+
+src/Punkt.s: src/Punkt.cpp.s
+.PHONY : src/Punkt.s
+
+# target to generate assembly for a file
+src/Punkt.cpp.s:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Punkt.cpp.s
+.PHONY : src/Punkt.cpp.s
+
+src/QuadraticFunction.obj: src/QuadraticFunction.cpp.obj
+.PHONY : src/QuadraticFunction.obj
+
+# target to build an object file
+src/QuadraticFunction.cpp.obj:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/QuadraticFunction.cpp.obj
+.PHONY : src/QuadraticFunction.cpp.obj
+
+src/QuadraticFunction.i: src/QuadraticFunction.cpp.i
+.PHONY : src/QuadraticFunction.i
+
+# target to preprocess a source file
+src/QuadraticFunction.cpp.i:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/QuadraticFunction.cpp.i
+.PHONY : src/QuadraticFunction.cpp.i
+
+src/QuadraticFunction.s: src/QuadraticFunction.cpp.s
+.PHONY : src/QuadraticFunction.s
+
+# target to generate assembly for a file
+src/QuadraticFunction.cpp.s:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/QuadraticFunction.cpp.s
+.PHONY : src/QuadraticFunction.cpp.s
+
+src/Sphere.obj: src/Sphere.cpp.obj
+.PHONY : src/Sphere.obj
+
+# target to build an object file
+src/Sphere.cpp.obj:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Sphere.cpp.obj
+.PHONY : src/Sphere.cpp.obj
+
+src/Sphere.i: src/Sphere.cpp.i
+.PHONY : src/Sphere.i
+
+# target to preprocess a source file
+src/Sphere.cpp.i:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Sphere.cpp.i
+.PHONY : src/Sphere.cpp.i
+
+src/Sphere.s: src/Sphere.cpp.s
+.PHONY : src/Sphere.s
+
+# target to generate assembly for a file
+src/Sphere.cpp.s:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Sphere.cpp.s
+.PHONY : src/Sphere.cpp.s
+
+src/Student.obj: src/Student.cpp.obj
+.PHONY : src/Student.obj
+
+# target to build an object file
+src/Student.cpp.obj:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Student.cpp.obj
+.PHONY : src/Student.cpp.obj
+
+src/Student.i: src/Student.cpp.i
+.PHONY : src/Student.i
+
+# target to preprocess a source file
+src/Student.cpp.i:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Student.cpp.i
+.PHONY : src/Student.cpp.i
+
+src/Student.s: src/Student.cpp.s
+.PHONY : src/Student.s
+
+# target to generate assembly for a file
+src/Student.cpp.s:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/src/Student.cpp.s
+.PHONY : src/Student.cpp.s
 
 src/functions.obj: src/functions.cpp.obj
 .PHONY : src/functions.obj
@@ -210,9 +354,27 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab4
-	@echo ... src/cuboid.obj
-	@echo ... src/cuboid.i
-	@echo ... src/cuboid.s
+	@echo ... src/Cuboid.obj
+	@echo ... src/Cuboid.i
+	@echo ... src/Cuboid.s
+	@echo ... src/Destructor.obj
+	@echo ... src/Destructor.i
+	@echo ... src/Destructor.s
+	@echo ... src/Figura.obj
+	@echo ... src/Figura.i
+	@echo ... src/Figura.s
+	@echo ... src/Punkt.obj
+	@echo ... src/Punkt.i
+	@echo ... src/Punkt.s
+	@echo ... src/QuadraticFunction.obj
+	@echo ... src/QuadraticFunction.i
+	@echo ... src/QuadraticFunction.s
+	@echo ... src/Sphere.obj
+	@echo ... src/Sphere.i
+	@echo ... src/Sphere.s
+	@echo ... src/Student.obj
+	@echo ... src/Student.i
+	@echo ... src/Student.s
 	@echo ... src/functions.obj
 	@echo ... src/functions.i
 	@echo ... src/functions.s

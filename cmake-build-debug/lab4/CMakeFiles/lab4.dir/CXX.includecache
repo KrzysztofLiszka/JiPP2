@@ -6,9 +6,49 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/cuboid.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Cuboid.h
 
-C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/cuboid.cpp
-../include/cuboid.h
-C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/cuboid.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Destructor.h
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Figura.h
+../include/Punkt.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Punkt.h
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Punkt.h
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/QuadraticFunction.h
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Sphere.h
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Student.h
+string
+-
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/functions.h
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/Destructor.cpp
+../include/Destructor.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Destructor.h
+iostream
+-
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/src/main.cpp
+iostream
+-
+../include/functions.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/functions.h
+../include/Cuboid.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Cuboid.h
+../include/Sphere.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Sphere.h
+../include/QuadraticFunction.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/QuadraticFunction.h
+../include/Student.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Student.h
+../include/Punkt.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Punkt.h
+../include/Figura.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Figura.h
+../include/Destructor.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/include/Destructor.h
 
