@@ -219,6 +219,32 @@ lab4/fast:
 	$(MAKE) $(MAKESILENT) -f lab4\CMakeFiles\lab4.dir\build.make lab4/CMakeFiles/lab4.dir/build
 .PHONY : lab4/fast
 
+#=============================================================================
+# Target rules for targets named e1NoCopyingConstructor
+
+# Build rule for target.
+e1NoCopyingConstructor: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 e1NoCopyingConstructor
+.PHONY : e1NoCopyingConstructor
+
+# fast build rule for target.
+e1NoCopyingConstructor/fast:
+	$(MAKE) $(MAKESILENT) -f E1NoCopyingConstructor\CMakeFiles\e1NoCopyingConstructor.dir\build.make E1NoCopyingConstructor/CMakeFiles/e1NoCopyingConstructor.dir/build
+.PHONY : e1NoCopyingConstructor/fast
+
+#=============================================================================
+# Target rules for targets named lab5
+
+# Build rule for target.
+lab5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab5
+.PHONY : lab5
+
+# fast build rule for target.
+lab5/fast:
+	$(MAKE) $(MAKESILENT) -f lab5\CMakeFiles\lab5.dir\build.make lab5/CMakeFiles/lab5.dir/build
+.PHONY : lab5/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -228,10 +254,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... allocation_basics
+	@echo ... e1NoCopyingConstructor
 	@echo ... firstLib
 	@echo ... firstLibCall
 	@echo ... lab2Homework
 	@echo ... lab4
+	@echo ... lab5
 	@echo ... matrixApp
 	@echo ... matrixLib
 	@echo ... simpleCalc

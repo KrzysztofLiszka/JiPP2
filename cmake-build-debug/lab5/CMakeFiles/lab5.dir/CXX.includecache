@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lab5/include/Car.h
+string
+../lab5/include/string
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab5/src/Car.cpp
+Car.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab5/src/Car.h
+
