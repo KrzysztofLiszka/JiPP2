@@ -17,19 +17,8 @@ private:
     string marka;
     string typ;
 public:
-    Car()
-    {
-    tab = new string;
-    }
-    Car(Car& car)
-    {
-        nrRejestracyjny = car.nrRejestracyjny;
-        nazwa = car.nazwa;
-        iloscMiejsc = car.iloscMiejsc;
-        tab = new string;
-        marka = car.marka;
-        typ = car.typ;
-    }
+    Car(string nrRejestracyjny, string nazwa, int iloscMiejsc, string marka, string typ);
+    Car(Car &car);
 };
 
 
