@@ -6,13 +6,13 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab5/include/Car.h
+../lab5/include/Car.h
 string
-C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab5/include/string
+../lab5/include/string
 
-C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab5/src/main.cpp
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab5/src/Car.cpp
+Car.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab5/src/Car.h
 iostream
--
-../include/Car.h
-C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab5/include/Car.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab5/src/iostream
 

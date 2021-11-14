@@ -14,6 +14,7 @@ Car::Car(string nrRejestracyjny, string nazwa, int iloscMiejsc, string marka, st
     {
         this->tab[i] = "PUSTE";
     }
+    this->zainstalowanaWersjaOprogramowania = najnowszaWersjaOprogramowania;
 }
 Car::Car(Car &car) {
     nrRejestracyjny = car.nrRejestracyjny;
@@ -26,6 +27,7 @@ Car::Car(Car &car) {
     {
         tab[i]=car.tab[i];
     }
+    zainstalowanaWersjaOprogramowania = car.zainstalowanaWersjaOprogramowania;
 }
 
 void Car::wypisz() {
@@ -62,3 +64,14 @@ string Car::setNrRejestracyjny(string nrRejestracyjny)
 {
     this->nrRejestracyjny=nrRejestracyjny;
 }
+int Car::najnowszaWersjaOprogramowania = 1;
+void Car::zaktualizujWersjeOprogramowania() {
+    zainstalowanaWersjaOprogramowania = najnowszaWersjaOprogramowania;
+}
+void Car::wypiszWersjeOprogramowania() {
+    cout << "\nNazwa: " << nazwa << "\nZainstalowana wersja oprogramowania: " << zainstalowanaWersjaOprogramowania << "\nNajnowsza wersja oprogramowania: " << najnowszaWersjaOprogramowania << endl;
+}
+void Car::opublikujNoweOprogramowanie(int nowaWersja) {
+    najnowszaWersjaOprogramowania = nowaWersja;
+}
+

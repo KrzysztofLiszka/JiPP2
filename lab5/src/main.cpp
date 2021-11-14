@@ -15,5 +15,14 @@ int main() {
     c2.setNrRejestracyjny("KR 22222");
     c2.wypisz();
 
+    cout << "Zadania 2.3\nOprogramowanie na poczatku dla pojazdu 1:" << endl;
+    c1.wypiszWersjeOprogramowania();
+
+    Car::opublikujNoweOprogramowanie(2);
+
+    c1.zaktualizujWersjeOprogramowania();
+    cout<<"\nWersja po aktualizacji: ";
+    c1.wypiszWersjeOprogramowania();
+
     return 0;
 }

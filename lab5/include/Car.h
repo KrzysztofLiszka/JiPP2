@@ -16,6 +16,9 @@ private:
     string *tab;
     string marka;
     string typ;
+    static int najnowszaWersjaOprogramowania;
+    string zainstalowanaWersjaOprogramowania;
+
 public:
     Car(string nrRejestracyjny, string nazwa, int iloscMiejsc, string marka, string typ);
     Car(Car &car);
@@ -27,6 +30,9 @@ public:
     string getTyp();
     string setNazwa(string nazwa);
     string setNrRejestracyjny(string nrRejestracyjny);
+    void wypiszWersjeOprogramowania();
+    void zaktualizujWersjeOprogramowania();
+    static void opublikujNoweOprogramowanie(int nowaWersja);
 };
 
 
