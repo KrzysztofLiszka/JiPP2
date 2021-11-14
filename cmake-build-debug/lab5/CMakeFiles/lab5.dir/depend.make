@@ -5,4 +5,5 @@ lab5/CMakeFiles/lab5.dir/src/Car.cpp.obj: \
  ../lab5/include/Car.h \
  ../lab5/src/Car.cpp
 lab5/CMakeFiles/lab5.dir/src/main.cpp.obj: \
+ ../lab5/include/Car.h \
  ../lab5/src/main.cpp

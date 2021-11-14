@@ -19,6 +19,14 @@ private:
 public:
     Car(string nrRejestracyjny, string nazwa, int iloscMiejsc, string marka, string typ);
     Car(Car &car);
+    void wypisz();
+    void zmienInformacje(int miejsce, string informacja);
+    string getNazwa();
+    string getNrRejestracyjny();
+    string getMarka();
+    string getTyp();
+    string setNazwa(string nazwa);
+    string setNrRejestracyjny(string nrRejestracyjny);
 };
 
 
