@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../lab6/include/Node.h
+
+../lab6/include/Vector.h
+iostream
+../lab6/include/iostream
+string
+../lab6/include/string
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab6/src/main.cpp
+iostream
+-
+Vector.h
+-
+Node.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab6/src/Node.h
+

@@ -30,3 +30,6 @@ C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstruct
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab5/CMakeFiles/lab5.dir
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab5/CMakeFiles/edit_cache.dir
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab5/CMakeFiles/rebuild_cache.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab6/CMakeFiles/lab6.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab6/CMakeFiles/edit_cache.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab6/CMakeFiles/rebuild_cache.dir

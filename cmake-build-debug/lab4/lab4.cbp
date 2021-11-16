@@ -5,7 +5,7 @@
 		<Option title="lab4"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simpleCalc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\lab3Homework\;CMake Files\matrixApp\;CMake Files\matrixLib\;CMake Files\lab4\;CMake Files\E1NoCopyingConstructor\;CMake Files\lab5\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simpleCalc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\lab3Homework\;CMake Files\matrixApp\;CMake Files\matrixLib\;CMake Files\lab4\;CMake Files\E1NoCopyingConstructor\;CMake Files\lab5\;CMake Files\lab6\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab4"/>
@@ -145,6 +145,9 @@
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab5/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab5\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab6\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
