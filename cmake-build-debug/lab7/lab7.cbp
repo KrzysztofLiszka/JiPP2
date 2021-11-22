@@ -2,29 +2,28 @@
 <CodeBlocks_project_file>
 	<FileVersion major="1" minor="6"/>
 	<Project>
-		<Option title="e1NoCopyingConstructor"/>
+		<Option title="lab7"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
 		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simpleCalc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\lab3Homework\;CMake Files\matrixApp\;CMake Files\matrixLib\;CMake Files\lab4\;CMake Files\E1NoCopyingConstructor\;CMake Files\lab5\;CMake Files\lab6\;CMake Files\lab7\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor"/>
+				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="e1NoCopyingConstructor">
-				<Option output="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor/e1NoCopyingConstructor.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor"/>
+			<Target title="lab7">
+				<Option output="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/lab7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Krzysztof/Documents/GitHub/JiPP2/E1NoCopyingConstructor/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -34,20 +33,19 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor/Makefile&quot;  VERBOSE=1 e1NoCopyingConstructor"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/Makefile&quot;  VERBOSE=1 lab7"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="e1NoCopyingConstructor/fast">
-				<Option output="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor/e1NoCopyingConstructor.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor"/>
+			<Target title="lab7/fast">
+				<Option output="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/lab7.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/Users/Krzysztof/Documents/GitHub/JiPP2/E1NoCopyingConstructor/include"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
@@ -57,18 +55,33 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor/Makefile&quot;  VERBOSE=1 e1NoCopyingConstructor/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/E1NoCopyingConstructor/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/Makefile&quot;  VERBOSE=1 lab7/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/E1NoCopyingConstructor/src/Point.cpp">
-			<Option target="e1NoCopyingConstructor"/>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Figura.h">
+			<Option target="lab7"/>
 		</Unit>
-		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/E1NoCopyingConstructor/src/main.cpp">
-			<Option target="e1NoCopyingConstructor"/>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Ostroslup.h">
+			<Option target="lab7"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Szescian.h">
+			<Option target="lab7"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/Figura.cpp">
+			<Option target="lab7"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/Ostroslup.cpp">
+			<Option target="lab7"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/Szescian.cpp">
+			<Option target="lab7"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/main.cpp">
+			<Option target="lab7"/>
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
