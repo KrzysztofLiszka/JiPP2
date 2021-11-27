@@ -13,8 +13,8 @@ protected:
     double h;
 public:
     Ostroslup(double a, double b, double h);
-    double obliczPoleOstroslupa();
     double obliczObjetoscOstroslupa();
+    double getArea() override;
 };
 
 

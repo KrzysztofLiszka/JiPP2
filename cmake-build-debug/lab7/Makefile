@@ -129,6 +129,30 @@ lab7/fast:
 	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab7\CMakeFiles\lab7.dir\build.make lab7/CMakeFiles/lab7.dir/build
 .PHONY : lab7/fast
 
+src/Circle.obj: src/Circle.cpp.obj
+.PHONY : src/Circle.obj
+
+# target to build an object file
+src/Circle.cpp.obj:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab7\CMakeFiles\lab7.dir\build.make lab7/CMakeFiles/lab7.dir/src/Circle.cpp.obj
+.PHONY : src/Circle.cpp.obj
+
+src/Circle.i: src/Circle.cpp.i
+.PHONY : src/Circle.i
+
+# target to preprocess a source file
+src/Circle.cpp.i:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab7\CMakeFiles\lab7.dir\build.make lab7/CMakeFiles/lab7.dir/src/Circle.cpp.i
+.PHONY : src/Circle.cpp.i
+
+src/Circle.s: src/Circle.cpp.s
+.PHONY : src/Circle.s
+
+# target to generate assembly for a file
+src/Circle.cpp.s:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab7\CMakeFiles\lab7.dir\build.make lab7/CMakeFiles/lab7.dir/src/Circle.cpp.s
+.PHONY : src/Circle.cpp.s
+
 src/Figura.obj: src/Figura.cpp.obj
 .PHONY : src/Figura.obj
 
@@ -176,6 +200,30 @@ src/Ostroslup.s: src/Ostroslup.cpp.s
 src/Ostroslup.cpp.s:
 	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab7\CMakeFiles\lab7.dir\build.make lab7/CMakeFiles/lab7.dir/src/Ostroslup.cpp.s
 .PHONY : src/Ostroslup.cpp.s
+
+src/Rectangle.obj: src/Rectangle.cpp.obj
+.PHONY : src/Rectangle.obj
+
+# target to build an object file
+src/Rectangle.cpp.obj:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab7\CMakeFiles\lab7.dir\build.make lab7/CMakeFiles/lab7.dir/src/Rectangle.cpp.obj
+.PHONY : src/Rectangle.cpp.obj
+
+src/Rectangle.i: src/Rectangle.cpp.i
+.PHONY : src/Rectangle.i
+
+# target to preprocess a source file
+src/Rectangle.cpp.i:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab7\CMakeFiles\lab7.dir\build.make lab7/CMakeFiles/lab7.dir/src/Rectangle.cpp.i
+.PHONY : src/Rectangle.cpp.i
+
+src/Rectangle.s: src/Rectangle.cpp.s
+.PHONY : src/Rectangle.s
+
+# target to generate assembly for a file
+src/Rectangle.cpp.s:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab7\CMakeFiles\lab7.dir\build.make lab7/CMakeFiles/lab7.dir/src/Rectangle.cpp.s
+.PHONY : src/Rectangle.cpp.s
 
 src/Szescian.obj: src/Szescian.cpp.obj
 .PHONY : src/Szescian.obj
@@ -234,12 +282,18 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... lab7
+	@echo ... src/Circle.obj
+	@echo ... src/Circle.i
+	@echo ... src/Circle.s
 	@echo ... src/Figura.obj
 	@echo ... src/Figura.i
 	@echo ... src/Figura.s
 	@echo ... src/Ostroslup.obj
 	@echo ... src/Ostroslup.i
 	@echo ... src/Ostroslup.s
+	@echo ... src/Rectangle.obj
+	@echo ... src/Rectangle.i
+	@echo ... src/Rectangle.s
 	@echo ... src/Szescian.obj
 	@echo ... src/Szescian.i
 	@echo ... src/Szescian.s

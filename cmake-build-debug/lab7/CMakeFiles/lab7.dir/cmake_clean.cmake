@@ -1,6 +1,8 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/lab7.dir/src/Circle.cpp.obj"
   "CMakeFiles/lab7.dir/src/Figura.cpp.obj"
   "CMakeFiles/lab7.dir/src/Ostroslup.cpp.obj"
+  "CMakeFiles/lab7.dir/src/Rectangle.cpp.obj"
   "CMakeFiles/lab7.dir/src/Szescian.cpp.obj"
   "CMakeFiles/lab7.dir/src/main.cpp.obj"
   "lab7.exe"

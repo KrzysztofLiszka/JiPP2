@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Circle.h
+Figura.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Figura.h
+
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Figura.h
 iostream
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/iostream
@@ -14,9 +18,17 @@ C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Ostroslup.h
 Figura.h
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Figura.h
 
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Rectangle.h
+Figura.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Figura.h
+
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/main.cpp
 iostream
 -
 ../include/Ostroslup.h
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Ostroslup.h
+../include/Circle.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Circle.h
+../include/Rectangle.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Rectangle.h
 

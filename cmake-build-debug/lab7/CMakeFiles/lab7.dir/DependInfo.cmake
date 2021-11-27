@@ -8,8 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/Circle.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/CMakeFiles/lab7.dir/src/Circle.cpp.obj"
   "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/Figura.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/CMakeFiles/lab7.dir/src/Figura.cpp.obj"
   "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/Ostroslup.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/CMakeFiles/lab7.dir/src/Ostroslup.cpp.obj"
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/Rectangle.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/CMakeFiles/lab7.dir/src/Rectangle.cpp.obj"
   "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/Szescian.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/CMakeFiles/lab7.dir/src/Szescian.cpp.obj"
   "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/main.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/CMakeFiles/lab7.dir/src/main.cpp.obj"
   )

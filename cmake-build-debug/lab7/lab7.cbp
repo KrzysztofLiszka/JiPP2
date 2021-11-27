@@ -62,19 +62,31 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Circle.h">
+			<Option target="lab7"/>
+		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Figura.h">
 			<Option target="lab7"/>
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Ostroslup.h">
 			<Option target="lab7"/>
 		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Rectangle.h">
+			<Option target="lab7"/>
+		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/include/Szescian.h">
+			<Option target="lab7"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/Circle.cpp">
 			<Option target="lab7"/>
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/Figura.cpp">
 			<Option target="lab7"/>
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/Ostroslup.cpp">
+			<Option target="lab7"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/Rectangle.cpp">
 			<Option target="lab7"/>
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/src/Szescian.cpp">

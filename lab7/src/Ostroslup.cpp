@@ -4,9 +4,13 @@
 
 #include "../include/Ostroslup.h"
 
-Ostroslup::Ostroslup(double a, double b, double h): a(a), b(b), h(h) {}
+Ostroslup::Ostroslup(double a, double b, double h) {
+    this->a = a;
+    this->b = b;
+    this->h = h;
+}
 
-double Ostroslup::obliczPoleOstroslupa() {
+double Ostroslup::getArea() {
     return 2*a*b+(b*b);
 }
 double Ostroslup::obliczObjetoscOstroslupa() {

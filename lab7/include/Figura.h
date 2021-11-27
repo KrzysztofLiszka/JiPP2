@@ -15,6 +15,7 @@ protected:
     string kolor;
 public:
     void pokazInformacje();
+    virtual double getArea() = 0;
 };
 
 

@@ -117,12 +117,40 @@ lab7/CMakeFiles/lab7.dir/src/Szescian.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7.dir/src/Szescian.cpp.s"
 	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab7 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab7\src\Szescian.cpp -o CMakeFiles\lab7.dir\src\Szescian.cpp.s
 
+lab7/CMakeFiles/lab7.dir/src/Circle.cpp.obj: lab7/CMakeFiles/lab7.dir/flags.make
+lab7/CMakeFiles/lab7.dir/src/Circle.cpp.obj: ../lab7/src/Circle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object lab7/CMakeFiles/lab7.dir/src/Circle.cpp.obj"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab7 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab7.dir\src\Circle.cpp.obj -c C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab7\src\Circle.cpp
+
+lab7/CMakeFiles/lab7.dir/src/Circle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7.dir/src/Circle.cpp.i"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab7 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab7\src\Circle.cpp > CMakeFiles\lab7.dir\src\Circle.cpp.i
+
+lab7/CMakeFiles/lab7.dir/src/Circle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7.dir/src/Circle.cpp.s"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab7 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab7\src\Circle.cpp -o CMakeFiles\lab7.dir\src\Circle.cpp.s
+
+lab7/CMakeFiles/lab7.dir/src/Rectangle.cpp.obj: lab7/CMakeFiles/lab7.dir/flags.make
+lab7/CMakeFiles/lab7.dir/src/Rectangle.cpp.obj: ../lab7/src/Rectangle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object lab7/CMakeFiles/lab7.dir/src/Rectangle.cpp.obj"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab7 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\lab7.dir\src\Rectangle.cpp.obj -c C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab7\src\Rectangle.cpp
+
+lab7/CMakeFiles/lab7.dir/src/Rectangle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lab7.dir/src/Rectangle.cpp.i"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab7 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab7\src\Rectangle.cpp > CMakeFiles\lab7.dir\src\Rectangle.cpp.i
+
+lab7/CMakeFiles/lab7.dir/src/Rectangle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lab7.dir/src/Rectangle.cpp.s"
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab7 && C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Krzysztof\Documents\GitHub\JiPP2\lab7\src\Rectangle.cpp -o CMakeFiles\lab7.dir\src\Rectangle.cpp.s
+
 # Object files for target lab7
 lab7_OBJECTS = \
 "CMakeFiles/lab7.dir/src/main.cpp.obj" \
 "CMakeFiles/lab7.dir/src/Figura.cpp.obj" \
 "CMakeFiles/lab7.dir/src/Ostroslup.cpp.obj" \
-"CMakeFiles/lab7.dir/src/Szescian.cpp.obj"
+"CMakeFiles/lab7.dir/src/Szescian.cpp.obj" \
+"CMakeFiles/lab7.dir/src/Circle.cpp.obj" \
+"CMakeFiles/lab7.dir/src/Rectangle.cpp.obj"
 
 # External object files for target lab7
 lab7_EXTERNAL_OBJECTS =
@@ -131,11 +159,13 @@ lab7/lab7.exe: lab7/CMakeFiles/lab7.dir/src/main.cpp.obj
 lab7/lab7.exe: lab7/CMakeFiles/lab7.dir/src/Figura.cpp.obj
 lab7/lab7.exe: lab7/CMakeFiles/lab7.dir/src/Ostroslup.cpp.obj
 lab7/lab7.exe: lab7/CMakeFiles/lab7.dir/src/Szescian.cpp.obj
+lab7/lab7.exe: lab7/CMakeFiles/lab7.dir/src/Circle.cpp.obj
+lab7/lab7.exe: lab7/CMakeFiles/lab7.dir/src/Rectangle.cpp.obj
 lab7/lab7.exe: lab7/CMakeFiles/lab7.dir/build.make
 lab7/lab7.exe: lab7/CMakeFiles/lab7.dir/linklibs.rsp
 lab7/lab7.exe: lab7/CMakeFiles/lab7.dir/objects1.rsp
 lab7/lab7.exe: lab7/CMakeFiles/lab7.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable lab7.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable lab7.exe"
 	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\lab7 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\lab7.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

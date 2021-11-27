@@ -20,8 +20,6 @@ int **allocateMemoryForMatrixTypeInt(int numberOfRows, int numberOfColumns)
     }
     return allocatedMatrix;
 }
-
-
 double **addMatrix(double **firstMatrix, double **secondMatrix, int numberOfRows, int numberOfColumns)
 {
     double **resultMatrix = allocateMemoryForMatrixTypeDouble(numberOfRows, numberOfColumns);
@@ -44,7 +42,6 @@ int **addMatrix(int **firstMatrix, int **secondMatrix, int numberOfRows, int num
         }
     return resultMatrix;
 }
-
 double **subtractMatrix(double **firstMatrix, double **secondMatrix, int numberOfRows, int numberOfColumns)
 {
     double **resultMatrix = allocateMemoryForMatrixTypeDouble(numberOfRows, numberOfColumns);
