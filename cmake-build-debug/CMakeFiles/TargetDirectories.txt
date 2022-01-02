@@ -36,3 +36,6 @@ C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab6/CMakeFiles/rebu
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/CMakeFiles/lab7.dir
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/CMakeFiles/edit_cache.dir
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/CMakeFiles/rebuild_cache.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/CMakeFiles/lab8.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/CMakeFiles/edit_cache.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/CMakeFiles/rebuild_cache.dir

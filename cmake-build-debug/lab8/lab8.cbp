@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="lab8"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simpleCalc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\lab3Homework\;CMake Files\matrixApp\;CMake Files\matrixLib\;CMake Files\lab4\;CMake Files\E1NoCopyingConstructor\;CMake Files\lab5\;CMake Files\lab6\;CMake Files\lab7\;CMake Files\lab8\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8">
+				<Option output="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/lab8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/Makefile&quot;  VERBOSE=1 lab8"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="lab8/fast">
+				<Option output="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/lab8.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/Makefile&quot;  VERBOSE=1 lab8/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab8/include/TextNote.h">
+			<Option target="lab8"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab8/src/TextNote.cpp">
+			<Option target="lab8"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab8/src/main.cpp">
+			<Option target="lab8"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/allocation_basics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\allocation_basics\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/simpleCalc/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\simpleCalc\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/firstLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\firstLib\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/firstLibCall/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\firstLibCall\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab3Homework\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixApp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\matrixApp\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\matrixLib\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab4\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/E1NoCopyingConstructor/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\E1NoCopyingConstructor\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab5\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab6/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab6\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab7\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

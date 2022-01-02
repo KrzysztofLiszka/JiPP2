@@ -5,7 +5,7 @@
 		<Option title="firstLib"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simpleCalc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\lab3Homework\;CMake Files\matrixApp\;CMake Files\matrixLib\;CMake Files\lab4\;CMake Files\E1NoCopyingConstructor\;CMake Files\lab5\;CMake Files\lab6\;CMake Files\lab7\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\allocation_basics\;CMake Files\simpleCalc\;CMake Files\firstLib\;CMake Files\firstLibCall\;CMake Files\lab3Homework\;CMake Files\matrixApp\;CMake Files\matrixLib\;CMake Files\lab4\;CMake Files\E1NoCopyingConstructor\;CMake Files\lab5\;CMake Files\lab6\;CMake Files\lab7\;CMake Files\lab8\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/firstLib"/>
@@ -103,6 +103,9 @@
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab7/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\lab7\"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab8/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\lab8\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

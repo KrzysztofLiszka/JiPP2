@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab8/src/Note.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/allocation_basics/CMakeFiles/allocation_basics.dir/__/lab8/src/Note.cpp.obj"
   "C:/Users/Krzysztof/Documents/GitHub/JiPP2/allocation_basics/main.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/allocation_basics/CMakeFiles/allocation_basics.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

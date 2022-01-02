@@ -129,6 +129,30 @@ allocation_basics/fast:
 	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\allocation_basics.dir\build.make allocation_basics/CMakeFiles/allocation_basics.dir/build
 .PHONY : allocation_basics/fast
 
+__/lab8/src/Note.obj: __/lab8/src/Note.cpp.obj
+.PHONY : __/lab8/src/Note.obj
+
+# target to build an object file
+__/lab8/src/Note.cpp.obj:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\allocation_basics.dir\build.make allocation_basics/CMakeFiles/allocation_basics.dir/__/lab8/src/Note.cpp.obj
+.PHONY : __/lab8/src/Note.cpp.obj
+
+__/lab8/src/Note.i: __/lab8/src/Note.cpp.i
+.PHONY : __/lab8/src/Note.i
+
+# target to preprocess a source file
+__/lab8/src/Note.cpp.i:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\allocation_basics.dir\build.make allocation_basics/CMakeFiles/allocation_basics.dir/__/lab8/src/Note.cpp.i
+.PHONY : __/lab8/src/Note.cpp.i
+
+__/lab8/src/Note.s: __/lab8/src/Note.cpp.s
+.PHONY : __/lab8/src/Note.s
+
+# target to generate assembly for a file
+__/lab8/src/Note.cpp.s:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f allocation_basics\CMakeFiles\allocation_basics.dir\build.make allocation_basics/CMakeFiles/allocation_basics.dir/__/lab8/src/Note.cpp.s
+.PHONY : __/lab8/src/Note.cpp.s
+
 main.obj: main.cpp.obj
 .PHONY : main.obj
 
@@ -162,6 +186,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... allocation_basics
+	@echo ... __/lab8/src/Note.obj
+	@echo ... __/lab8/src/Note.i
+	@echo ... __/lab8/src/Note.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
