@@ -278,6 +278,18 @@ firstLib_BINARY_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build
 firstLib_SOURCE_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/firstLib
 
 //Value Computed by CMake
+lab10_BINARY_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab10
+
+//Value Computed by CMake
+lab10_SOURCE_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab10
+
+//Value Computed by CMake
+lab11_BINARY_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab11
+
+//Value Computed by CMake
+lab11_SOURCE_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab11
+
+//Value Computed by CMake
 lab2Homework_BINARY_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab3Homework
 
 //Value Computed by CMake
@@ -318,6 +330,12 @@ lab8_BINARY_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-deb
 
 //Value Computed by CMake
 lab8_SOURCE_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab8
+
+//Value Computed by CMake
+lab9_BINARY_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab9
+
+//Value Computed by CMake
+lab9_SOURCE_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab9
 
 //Value Computed by CMake
 matrixApp_BINARY_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/matrixApp
@@ -450,7 +468,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

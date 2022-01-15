@@ -39,3 +39,12 @@ C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab7/CMakeFiles/rebu
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/CMakeFiles/lab8.dir
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/CMakeFiles/edit_cache.dir
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab8/CMakeFiles/rebuild_cache.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab9/CMakeFiles/lab9.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab9/CMakeFiles/edit_cache.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab9/CMakeFiles/rebuild_cache.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab10/CMakeFiles/rebuild_cache.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab10/CMakeFiles/lab10.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab10/CMakeFiles/edit_cache.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab11/CMakeFiles/lab11.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab11/CMakeFiles/edit_cache.dir
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/lab11/CMakeFiles/rebuild_cache.dir

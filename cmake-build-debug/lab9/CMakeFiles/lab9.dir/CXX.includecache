@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab9/include/Utwor.h
+string
+-
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab9/src/Utwor.cpp
+../include/Utwor.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab9/include/Utwor.h
+iostream
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab9/src/iostream
+windows.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab9/src/windows.h
+

@@ -284,6 +284,45 @@ lab8/fast:
 	$(MAKE) $(MAKESILENT) -f lab8\CMakeFiles\lab8.dir\build.make lab8/CMakeFiles/lab8.dir/build
 .PHONY : lab8/fast
 
+#=============================================================================
+# Target rules for targets named lab9
+
+# Build rule for target.
+lab9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab9
+.PHONY : lab9
+
+# fast build rule for target.
+lab9/fast:
+	$(MAKE) $(MAKESILENT) -f lab9\CMakeFiles\lab9.dir\build.make lab9/CMakeFiles/lab9.dir/build
+.PHONY : lab9/fast
+
+#=============================================================================
+# Target rules for targets named lab10
+
+# Build rule for target.
+lab10: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab10
+.PHONY : lab10
+
+# fast build rule for target.
+lab10/fast:
+	$(MAKE) $(MAKESILENT) -f lab10\CMakeFiles\lab10.dir\build.make lab10/CMakeFiles/lab10.dir/build
+.PHONY : lab10/fast
+
+#=============================================================================
+# Target rules for targets named lab11
+
+# Build rule for target.
+lab11: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 lab11
+.PHONY : lab11
+
+# fast build rule for target.
+lab11/fast:
+	$(MAKE) $(MAKESILENT) -f lab11\CMakeFiles\lab11.dir\build.make lab11/CMakeFiles/lab11.dir/build
+.PHONY : lab11/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -296,12 +335,15 @@ help:
 	@echo ... e1NoCopyingConstructor
 	@echo ... firstLib
 	@echo ... firstLibCall
+	@echo ... lab10
+	@echo ... lab11
 	@echo ... lab2Homework
 	@echo ... lab4
 	@echo ... lab5
 	@echo ... lab6
 	@echo ... lab7
 	@echo ... lab8
+	@echo ... lab9
 	@echo ... matrixApp
 	@echo ... matrixLib
 	@echo ... simpleCalc
