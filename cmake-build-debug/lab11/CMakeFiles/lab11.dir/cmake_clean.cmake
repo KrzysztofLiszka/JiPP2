@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/lab11.dir/src/main.cpp.obj"
-  "CMakeFiles/lab11.dir/src/unique_ptr.cpp.obj"
   "lab11.exe"
   "lab11.exe.manifest"
   "lab11.pdb"

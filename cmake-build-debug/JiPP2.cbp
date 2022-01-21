@@ -769,16 +769,13 @@
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/firstLibCall/main.cpp">
 			<Option target="firstLibCall"/>
 		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab10/include/templates.h">
+			<Option target="lab10"/>
+		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab10/src/main.cpp">
 			<Option target="lab10"/>
 		</Unit>
-		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab11/include/unique_ptr.h">
-			<Option target="lab11"/>
-		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab11/src/main.cpp">
-			<Option target="lab11"/>
-		</Unit>
-		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab11/src/unique_ptr.cpp">
 			<Option target="lab11"/>
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab3Homework/include/ExceptionHandling.h">

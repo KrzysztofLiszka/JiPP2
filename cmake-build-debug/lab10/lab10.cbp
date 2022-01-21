@@ -62,6 +62,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab10/include/templates.h">
+			<Option target="lab10"/>
+		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab10/src/main.cpp">
 			<Option target="lab10"/>
 		</Unit>

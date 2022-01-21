@@ -153,30 +153,6 @@ src/main.cpp.s:
 	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab11\CMakeFiles\lab11.dir\build.make lab11/CMakeFiles/lab11.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
-src/unique_ptr.obj: src/unique_ptr.cpp.obj
-.PHONY : src/unique_ptr.obj
-
-# target to build an object file
-src/unique_ptr.cpp.obj:
-	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab11\CMakeFiles\lab11.dir\build.make lab11/CMakeFiles/lab11.dir/src/unique_ptr.cpp.obj
-.PHONY : src/unique_ptr.cpp.obj
-
-src/unique_ptr.i: src/unique_ptr.cpp.i
-.PHONY : src/unique_ptr.i
-
-# target to preprocess a source file
-src/unique_ptr.cpp.i:
-	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab11\CMakeFiles\lab11.dir\build.make lab11/CMakeFiles/lab11.dir/src/unique_ptr.cpp.i
-.PHONY : src/unique_ptr.cpp.i
-
-src/unique_ptr.s: src/unique_ptr.cpp.s
-.PHONY : src/unique_ptr.s
-
-# target to generate assembly for a file
-src/unique_ptr.cpp.s:
-	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f lab11\CMakeFiles\lab11.dir\build.make lab11/CMakeFiles/lab11.dir/src/unique_ptr.cpp.s
-.PHONY : src/unique_ptr.cpp.s
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -189,9 +165,6 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
-	@echo ... src/unique_ptr.obj
-	@echo ... src/unique_ptr.i
-	@echo ... src/unique_ptr.s
 .PHONY : help
 
 

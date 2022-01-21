@@ -3,7 +3,7 @@ project(lab10)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(lab10 src/main.cpp)
+add_executable(lab10 src/main.cpp include/templates.h)
 
 
 

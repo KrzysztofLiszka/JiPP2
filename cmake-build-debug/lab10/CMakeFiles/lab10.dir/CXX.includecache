@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab10/include/templates.h
+iostream
+-
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab10/src/main.cpp
+iostream
+-
+../include/templates.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/lab10/include/templates.h
+
