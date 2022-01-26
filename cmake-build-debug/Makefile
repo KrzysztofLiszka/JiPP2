@@ -323,6 +323,19 @@ lab11/fast:
 	$(MAKE) $(MAKESILENT) -f lab11\CMakeFiles\lab11.dir\build.make lab11/CMakeFiles/lab11.dir/build
 .PHONY : lab11/fast
 
+#=============================================================================
+# Target rules for targets named projektKoncowy
+
+# Build rule for target.
+projektKoncowy: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 projektKoncowy
+.PHONY : projektKoncowy
+
+# fast build rule for target.
+projektKoncowy/fast:
+	$(MAKE) $(MAKESILENT) -f projektKoncowy\CMakeFiles\projektKoncowy.dir\build.make projektKoncowy/CMakeFiles/projektKoncowy.dir/build
+.PHONY : projektKoncowy/fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -346,6 +359,7 @@ help:
 	@echo ... lab9
 	@echo ... matrixApp
 	@echo ... matrixLib
+	@echo ... projektKoncowy
 	@echo ... simpleCalc
 .PHONY : help
 

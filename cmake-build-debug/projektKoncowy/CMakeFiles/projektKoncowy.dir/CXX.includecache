@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Jedzenie.h
+../include/Produkt.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Produkt.h
+vector
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/vector
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Produkt.h
+string
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/string
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Ubranie.h
+../include/Produkt.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Produkt.h
+vector
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/vector
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/funkcje.h
+iostream
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/iostream
+
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/src/main.cpp
+iostream
+-
+../include/funkcje.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/funkcje.h
+string
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/src/string
+vector
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/src/vector
+fstream
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/src/fstream
+../include/Ubranie.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Ubranie.h
+../include/Jedzenie.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Jedzenie.h
+

@@ -78,6 +78,7 @@ all: lab8/all
 all: lab9/all
 all: lab10/all
 all: lab11/all
+all: projektKoncowy/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -97,6 +98,7 @@ preinstall: lab8/preinstall
 preinstall: lab9/preinstall
 preinstall: lab10/preinstall
 preinstall: lab11/preinstall
+preinstall: projektKoncowy/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -116,6 +118,7 @@ clean: lab8/clean
 clean: lab9/clean
 clean: lab10/clean
 clean: lab11/clean
+clean: projektKoncowy/clean
 .PHONY : clean
 
 #=============================================================================
@@ -344,6 +347,21 @@ matrixLib/clean: matrixLib/CMakeFiles/matrixLib.dir/clean
 .PHONY : matrixLib/clean
 
 #=============================================================================
+# Directory level rules for directory projektKoncowy
+
+# Recursive "all" directory target.
+projektKoncowy/all: projektKoncowy/CMakeFiles/projektKoncowy.dir/all
+.PHONY : projektKoncowy/all
+
+# Recursive "preinstall" directory target.
+projektKoncowy/preinstall:
+.PHONY : projektKoncowy/preinstall
+
+# Recursive "clean" directory target.
+projektKoncowy/clean: projektKoncowy/CMakeFiles/projektKoncowy.dir/clean
+.PHONY : projektKoncowy/clean
+
+#=============================================================================
 # Directory level rules for directory simpleCalc
 
 # Recursive "all" directory target.
@@ -391,7 +409,7 @@ allocation_basics/CMakeFiles/allocation_basics.dir/clean:
 simpleCalc/CMakeFiles/simpleCalc.dir/all:
 	$(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/depend
 	$(MAKE) $(MAKESILENT) -f simpleCalc\CMakeFiles\simpleCalc.dir\build.make simpleCalc/CMakeFiles/simpleCalc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=57,58,59 "Built target simpleCalc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=63,64,65 "Built target simpleCalc"
 .PHONY : simpleCalc/CMakeFiles/simpleCalc.dir/all
 
 # Build rule for subdir invocation for target.
@@ -773,6 +791,32 @@ lab11: lab11/CMakeFiles/lab11.dir/rule
 lab11/CMakeFiles/lab11.dir/clean:
 	$(MAKE) $(MAKESILENT) -f lab11\CMakeFiles\lab11.dir\build.make lab11/CMakeFiles/lab11.dir/clean
 .PHONY : lab11/CMakeFiles/lab11.dir/clean
+
+#=============================================================================
+# Target rules for target projektKoncowy/CMakeFiles/projektKoncowy.dir
+
+# All Build rule for target.
+projektKoncowy/CMakeFiles/projektKoncowy.dir/all:
+	$(MAKE) $(MAKESILENT) -f projektKoncowy\CMakeFiles\projektKoncowy.dir\build.make projektKoncowy/CMakeFiles/projektKoncowy.dir/depend
+	$(MAKE) $(MAKESILENT) -f projektKoncowy\CMakeFiles\projektKoncowy.dir\build.make projektKoncowy/CMakeFiles/projektKoncowy.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles --progress-num=57,58,59,60,61,62 "Built target projektKoncowy"
+.PHONY : projektKoncowy/CMakeFiles/projektKoncowy.dir/all
+
+# Build rule for subdir invocation for target.
+projektKoncowy/CMakeFiles/projektKoncowy.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 6
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 projektKoncowy/CMakeFiles/projektKoncowy.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug\CMakeFiles 0
+.PHONY : projektKoncowy/CMakeFiles/projektKoncowy.dir/rule
+
+# Convenience name for target.
+projektKoncowy: projektKoncowy/CMakeFiles/projektKoncowy.dir/rule
+.PHONY : projektKoncowy
+
+# clean rule for target.
+projektKoncowy/CMakeFiles/projektKoncowy.dir/clean:
+	$(MAKE) $(MAKESILENT) -f projektKoncowy\CMakeFiles\projektKoncowy.dir\build.make projektKoncowy/CMakeFiles/projektKoncowy.dir/clean
+.PHONY : projektKoncowy/CMakeFiles/projektKoncowy.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

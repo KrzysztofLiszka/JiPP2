@@ -350,6 +350,12 @@ matrixLib_BINARY_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-buil
 matrixLib_SOURCE_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/matrixLib
 
 //Value Computed by CMake
+projektKoncowy_BINARY_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/projektKoncowy
+
+//Value Computed by CMake
+projektKoncowy_SOURCE_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy
+
+//Value Computed by CMake
 simpleCalc_BINARY_DIR:STATIC=C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/simpleCalc
 
 //Value Computed by CMake
@@ -468,7 +474,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=18
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
