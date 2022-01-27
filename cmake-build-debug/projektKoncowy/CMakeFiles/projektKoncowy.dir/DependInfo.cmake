@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/src/Jedzenie.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/projektKoncowy/CMakeFiles/projektKoncowy.dir/src/Jedzenie.cpp.obj"
   "C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/src/Produkt.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/projektKoncowy/CMakeFiles/projektKoncowy.dir/src/Produkt.cpp.obj"
+  "C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/src/Punkt.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/projektKoncowy/CMakeFiles/projektKoncowy.dir/src/Punkt.cpp.obj"
   "C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/src/Ubranie.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/projektKoncowy/CMakeFiles/projektKoncowy.dir/src/Ubranie.cpp.obj"
   "C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/src/funkcje.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/projektKoncowy/CMakeFiles/projektKoncowy.dir/src/funkcje.cpp.obj"
   "C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/src/main.cpp" "C:/Users/Krzysztof/Documents/GitHub/JiPP2/cmake-build-debug/projektKoncowy/CMakeFiles/projektKoncowy.dir/src/main.cpp.obj"

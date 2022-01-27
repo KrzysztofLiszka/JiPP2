@@ -8,6 +8,9 @@ projektKoncowy/CMakeFiles/projektKoncowy.dir/src/Jedzenie.cpp.obj: \
 projektKoncowy/CMakeFiles/projektKoncowy.dir/src/Produkt.cpp.obj: \
  ../projektKoncowy/include/Produkt.h \
  ../projektKoncowy/src/Produkt.cpp
+projektKoncowy/CMakeFiles/projektKoncowy.dir/src/Punkt.cpp.obj: \
+ ../projektKoncowy/include/Punkt.h \
+ ../projektKoncowy/src/Punkt.cpp
 projektKoncowy/CMakeFiles/projektKoncowy.dir/src/Ubranie.cpp.obj: \
  ../projektKoncowy/include/Produkt.h \
  ../projektKoncowy/include/Ubranie.h \
@@ -18,6 +21,7 @@ projektKoncowy/CMakeFiles/projektKoncowy.dir/src/funkcje.cpp.obj: \
 projektKoncowy/CMakeFiles/projektKoncowy.dir/src/main.cpp.obj: \
  ../projektKoncowy/include/Jedzenie.h \
  ../projektKoncowy/include/Produkt.h \
+ ../projektKoncowy/include/Punkt.h \
  ../projektKoncowy/include/Ubranie.h \
  ../projektKoncowy/include/funkcje.h \
  ../projektKoncowy/src/main.cpp

@@ -1008,6 +1008,9 @@
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Produkt.h">
 			<Option target="projektKoncowy"/>
 		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Punkt.h">
+			<Option target="projektKoncowy"/>
+		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Ubranie.h">
 			<Option target="projektKoncowy"/>
 		</Unit>
@@ -1018,6 +1021,9 @@
 			<Option target="projektKoncowy"/>
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/src/Produkt.cpp">
+			<Option target="projektKoncowy"/>
+		</Unit>
+		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/src/Punkt.cpp">
 			<Option target="projektKoncowy"/>
 		</Unit>
 		<Unit filename="C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/src/Ubranie.cpp">

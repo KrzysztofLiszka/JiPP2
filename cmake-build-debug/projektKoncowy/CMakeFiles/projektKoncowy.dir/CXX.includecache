@@ -16,6 +16,8 @@ C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Produkt.h
 string
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/string
 
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Punkt.h
+
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Ubranie.h
 ../include/Produkt.h
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Produkt.h
@@ -41,4 +43,6 @@ C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/src/fstream
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Ubranie.h
 ../include/Jedzenie.h
 C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Jedzenie.h
+../include/Punkt.h
+C:/Users/Krzysztof/Documents/GitHub/JiPP2/projektKoncowy/include/Punkt.h
 

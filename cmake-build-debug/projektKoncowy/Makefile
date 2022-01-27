@@ -177,6 +177,30 @@ src/Produkt.cpp.s:
 	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f projektKoncowy\CMakeFiles\projektKoncowy.dir\build.make projektKoncowy/CMakeFiles/projektKoncowy.dir/src/Produkt.cpp.s
 .PHONY : src/Produkt.cpp.s
 
+src/Punkt.obj: src/Punkt.cpp.obj
+.PHONY : src/Punkt.obj
+
+# target to build an object file
+src/Punkt.cpp.obj:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f projektKoncowy\CMakeFiles\projektKoncowy.dir\build.make projektKoncowy/CMakeFiles/projektKoncowy.dir/src/Punkt.cpp.obj
+.PHONY : src/Punkt.cpp.obj
+
+src/Punkt.i: src/Punkt.cpp.i
+.PHONY : src/Punkt.i
+
+# target to preprocess a source file
+src/Punkt.cpp.i:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f projektKoncowy\CMakeFiles\projektKoncowy.dir\build.make projektKoncowy/CMakeFiles/projektKoncowy.dir/src/Punkt.cpp.i
+.PHONY : src/Punkt.cpp.i
+
+src/Punkt.s: src/Punkt.cpp.s
+.PHONY : src/Punkt.s
+
+# target to generate assembly for a file
+src/Punkt.cpp.s:
+	cd /d C:\Users\Krzysztof\Documents\GitHub\JiPP2\cmake-build-debug && $(MAKE) $(MAKESILENT) -f projektKoncowy\CMakeFiles\projektKoncowy.dir\build.make projektKoncowy/CMakeFiles/projektKoncowy.dir/src/Punkt.cpp.s
+.PHONY : src/Punkt.cpp.s
+
 src/Ubranie.obj: src/Ubranie.cpp.obj
 .PHONY : src/Ubranie.obj
 
@@ -264,6 +288,9 @@ help:
 	@echo ... src/Produkt.obj
 	@echo ... src/Produkt.i
 	@echo ... src/Produkt.s
+	@echo ... src/Punkt.obj
+	@echo ... src/Punkt.i
+	@echo ... src/Punkt.s
 	@echo ... src/Ubranie.obj
 	@echo ... src/Ubranie.i
 	@echo ... src/Ubranie.s

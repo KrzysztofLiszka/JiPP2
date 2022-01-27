@@ -5,6 +5,7 @@
 #include "fstream"
 #include "../include/Ubranie.h"
 #include "../include/Jedzenie.h"
+#include "../include/Punkt.h"
 
 #define iloscJedzenia 5
 #define iloscUbran 4
@@ -117,7 +118,10 @@ int main(int argc, char *argv[])
             cout<<"\nDodawanie 1.1+2.2="<<myAddingTwoNumbers(1.1,2.2)<<endl;
             cout<<"\nDodawanie 1+2="<<myAddingTwoNumbers(1,2)<<endl;
 
-
+            Punkt pkt1(3, -5);
+            pkt1.print();
+            Punkt punktPrzeciwny = !pkt1;
+            punktPrzeciwny.print();
         }
     }
 
