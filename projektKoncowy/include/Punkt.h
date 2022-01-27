@@ -5,7 +5,7 @@
 #ifndef JIPP2_PUNKT_H
 #define JIPP2_PUNKT_H
 
-
+//klasa do przeciazania operatorow
 class Punkt {
 private:
     double x, y;
